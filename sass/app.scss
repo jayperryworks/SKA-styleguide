@@ -44,3 +44,26 @@
 // @import "foundation/components/tooltips";
 // @import "foundation/components/dropdown";
 
+@import "compass";
+@import "custom_settings";
+@import "modules";
+
+/* ============================================================================================================
+   Layout & Containers
+   ============================================================================================================ */
+
+.wrapper {
+  @include grid-row;
+  
+  [role="banner"] {
+    @include grid-column($total-columns);
+  }
+  
+  #content {
+    @include grid-column(9, $float: left);
+  }
+  
+  [role="navigation"] {
+    @include fixed-sidebar(3);
+  }
+}

@@ -1,0 +1,49 @@
+/* ============================================================================================================
+   Custom Global Variables
+   ============================================================================================================ */
+
+// header
+$header-h: emCalc(62px); // height of the header bar
+$header-padding: emCalc(20px);
+
+// content
+$menu-w: 3; // columns - width of the menu sidebar [role=navigation]
+$content-w: 12; // columns - width of the content [role=main]
+$resources-w: 4; // columns - width of fhe resources sidebar [role=complimentary]
+
+
+/* ============================================================================================================
+   Custom Colors (in addition to Foundation color settings -- see _foundation_and_overrides.scss)
+   ============================================================================================================ */
+
+$black: #333;
+$dark-gray: #515151;
+$med-gray: #cacaca;
+$gray: #808080;
+$light-gray: #dcdcdc;
+$very-light-gray: $secondary-color;
+$extremely-light-gray: #F5F5F5;
+
+$orange: #f79622;
+
+$hairline: 1px solid $med-gray;
+$hairline-light: 1px solid $light-gray;
+
+$dark-bg: $dark-gray;
+$light-bg: white;
+$accent-bg: $very-light-gray;
+
+
+/* ============================================================================================================
+   Media Query Variables - breakpoints
+   
+   These are Founation defaults, not included in overrides partial -- can add more if needed
+   ============================================================================================================ */
+
+$small-screen: emCalc(768px) !default;
+$medium-screen: emCalc(1280px) !default;
+$large-screen: $row-width; // see _foundation_and_overrides.scss
+
+$small: "only screen and (min-width:"#{$small-screen}")" !default;
+$medium: "only screen and (min-width:"#{$medium-screen}")" !default;
+$large: "only screen and (min-width:"#{$large-screen}")" !default;

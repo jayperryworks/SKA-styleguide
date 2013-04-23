@@ -1,0 +1,609 @@
+// Helper mixins & classes
+
+/* ============================================================================================================
+   Layout (containers)
+   ============================================================================================================ */
+
+// fixed position
+@mixin fixed {
+  position: fixed;
+  overflow: hidden;
+}
+
+// scroll horizontally
+@mixin scroll-x {
+  overflow-x: auto;
+}
+
+// scroll vertically
+@mixin scroll-y {
+  overflow-y: auto;
+}
+
+// fixed sidebar (generic/left)
+@mixin fixed-sidebar($cols: 3, $top: 0, $bottom: 0, $scroll-x: false, $scroll-y: true) {
+  @include grid-column($cols);
+  @include fixed;
+  top: $top;
+  bottom: $bottom;
+  
+  @if $scroll-y == true {
+    @include scroll-y;
+  }
+  
+  @if $scroll-x == true {
+    @include scroll-x;
+  }
+  
+  @include constrain-to-grid($cols);
+}
+
+// fixed sidebar (right)
+@mixin fixed-sidebar-right($cols: 4, $top: 0, $bottom: 0, $scroll-x: false, $scroll-y: true) {
+  @include grid-row(); // make this sidebar a nested row, so it's actually the same width as the wrapper
+  @include fixed;
+  top: $top;
+  bottom: $bottom;
+  max-width: $row-width;
+  //min-width: $min-width;
+  margin: 0 auto;
+  
+  @if $scroll-y == true {
+    @include scroll-y;
+  }
+  
+  @if $scroll-x == true {
+    @include scroll-x;
+  }
+  
+  // make the sidebar content the correct grid width and push to the right side.
+  // this way the sidebar contents stay to the right of the layout, but obey the rules of the rest of the grid.
+  & > * {
+    @include grid-column($cols, $offset: $total-columns - $cols, $collapse: true);
+    //padding-left: $column-gutter;
+  }
+}
+
+// constrain a fixed (or absolute) sidebar to the grid's maximum width
+// so it doesn't keep growing on wide screens
+@mixin constrain-to-grid($cols) {
+  max-width: $row-width * ($cols/$total-columns);
+  //min-width: $min-width * ($cols/$total-columns);
+}
+
+@mixin horizontal-list {
+  display: block;
+  float: left;
+  position: relative;
+}
+%horizontal-list {
+  @include horizontal-list;
+}
+
+/* ============================================================================================================
+   Animation/behaviors
+   ============================================================================================================ */
+
+// CSS3 transition -- b/c compass's mixin doesn't work so hot
+@mixin animate($property: all, $duration: .3s, $ease: ease-in-out, $delay: 0) {
+  -webkit-transition: $property $duration $ease $delay;
+  -moz-transition: $property $duration $ease $delay;
+  -o-transition: $property $duration $ease $delay;
+  transition: $property $duration $ease $delay;
+}
+
+@mixin spin($duration: 2s) {
+  -moz-animation: spin $duration infinite linear;
+  -o-animation: spin $duration infinite linear;
+  -webkit-animation: spin $duration infinite linear;
+  animation: spin $duration infinite linear;
+}
+
+@-moz-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -moz-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@-webkit-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -moz-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@-o-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -moz-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@-ms-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -moz-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -moz-transform: rotate(359deg);
+    -o-transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+
+/* ============================================================================================================
+   Custom components
+   ============================================================================================================ */
+
+/*
+ * Buttons
+*/
+
+@mixin button-default($color: $primary-color, $text: white, $radius: true, $size: $button-med, $width: false, $border: white) {
+  @include button-base;
+  @include button-size($size, $full-width: $width);
+  @include animate(all, $duration: .2s);
+  @if $radius == true {
+    @include radius;
+  }
+  
+  @if $size == $button-sml {
+    font-size: $button-font-sml;
+  }
+  @if $size == $button-lrg {
+    font-size: $button-font-lrg;
+  }
+  
+  color: $text !important;
+  background: $color;
+  
+  @if $border == none {
+    border: none;
+  } @else {
+    border-color: $border;
+  }
+  
+  &:hover, &:active {
+    color: $text !important;
+    background: darken($color, 10%);
+  }
+}
+
+%button-primary, .button-primary {
+  @include button-default;
+}
+
+%button-secondary, .button-secondary {
+  @include button-default($gray);
+}
+
+%button-utility, .button-utility {
+  @include button-default($very-light-gray, $text: $gray, $border: $hairline);
+}
+
+%button-alert, .button-alert {
+  @include button-default($orange);
+}
+
+%button-tiny {
+  font-size: $button-font-tny;
+  padding: $button-tny;
+}
+
+%button-small {
+  font-size: $button-font-sml;
+  padding: $button-sml;
+}
+
+%button-med {
+  font-size: $button-font-med;
+  padding: $button-med;
+}
+
+%button-lrg {
+  font-size: $button-font-lrg;
+  padding: $button-lrg;
+}
+
+/*
+ * Drop shadows
+*/
+
+%drop-shadow-light {
+  @include single-box-shadow(lighten($med-gray, 10%), $voff: 1px, $blur: 10px);
+}
+%drop-shadow-dark {
+  @include single-box-shadow($black, $voff: 1px, $blur: 10px);
+}
+
+/*
+ * Arrows
+*/
+
+// http://www.yuiblog.com/blog/2010/11/22/css-quick-tip-css-arrows-and-shapes-without-markup/
+$pointer-size: 8px;
+
+@mixin pointer-base($dir, $size: $pointer-size, $color: $light-bg) {
+  position: absolute;
+  @include css-triangle($size, $triangle-color: $color, $triangle-direction: $dir);
+}
+
+// for vertical menus (sidebars)
+%pointer-left-bright {
+  right: 0;
+  top: 50%;
+  margin-top: -#{$pointer-size};
+  @include pointer-base(right);
+}
+
+%pointer-up-bright {
+  bottom: 0;
+  left: 50%;
+  margin-left: -#{$pointer-size};
+  @include pointer-base(bottom);
+}
+
+@mixin pointer-up-bright-hairline($c: $med-gray) {
+  &:before {
+    @include pointer-base(bottom, $color: $c);
+    bottom: 0px;
+    left: 50%;
+    margin-left: -#{$pointer-size};
+    z-index: 98;
+  }
+
+  &:after {
+    @extend %pointer-up-bright;
+    bottom: -2px;
+    z-index: 99;
+  }
+}
+
+// for dropdowns in menus (like the header)
+%pointer-dropdown-dark {
+  right: emCalc(12px);
+  top: 50%;
+  margin-top: -#{$pointer-size/2};
+  @include pointer-base(top, $size: 4px, $color: $gray);
+}
+
+%pointer-dropdown-light {
+  @extend %pointer-dropdown-dark;
+  @include pointer-base(top, $size: 4px, $color: $very-light-gray);
+}
+
+/*
+ * Document & Template grids
+*/
+
+// a "card" for listing documents, templates, etc.
+@mixin item-card($w: emCalc(290px), $h: emCalc(300px), $gutter: $column-gutter/2, $padding: $column-gutter/2) {
+  //@include grid-column($cols, $float: left, $last-column: true);
+  //width: gridCalc($cols, $total-columns) - $gutter; //adjust grid width a little to allow for margins
+  position: relative;
+  width: $w;
+  height: $h;
+  float: left;
+  margin: 0 $gutter $gutter 0;
+  padding: $padding;
+  overflow: hidden;
+  border: $hairline-light;
+  @include radius;
+  @include animate(all);
+  
+  &:hover {
+    background: lighten($very-light-gray, 3%);
+    border: $hairline;
+  }
+  
+  h3, h4 {
+    line-height: 1.4;
+    
+    & > a {
+      color: $dark-gray;
+    }
+  }
+  
+  .description {
+    //min-height: emCalc(50px); //keep the description the same height so boxes are uniform
+  }
+  
+  .attribution {
+    position: absolute;
+    left: $padding;
+    right: $padding;
+    bottom: emCalc(60px) + $padding;
+    margin: 0 emCalc(7px);
+    font-size: emCalc(12px);
+    color: $gray;
+    @include clearfix;
+    
+    dd {
+      margin-bottom: emCalc(4px);
+    }
+  }
+  
+  .tools {
+    @include button-group-container;
+    position: absolute;
+    margin: 0;
+    bottom: $padding;
+    left: $padding;
+    right: $padding;
+    
+    & > li {
+      @include button-group-style($global-radius, $even: 2);
+    }
+    
+    a {
+      @include button-default($med-gray, $radius: false, $size: $button-sml, $width: true);
+      margin: 0;
+      
+      &:hover, &:active {
+        background: $primary-color;
+      }
+    }
+  }
+  
+  .view {
+    @include button-default($med-gray, $radius: true, $size: $button-sml, $width: true);
+  }
+  
+  .tools.delete-allowed {
+    
+    & > li {
+      @include button-group-style($global-radius, $even: 3);
+    }
+    
+    .delete {
+      &:hover, &:active {
+        background: $orange;
+      }
+    }
+  }
+}
+
+%item-card, .item-card {
+  @include item-card;
+}
+
+
+/* ============================================================================================================
+   Skins
+   
+   Modules for visual style -- see _settings.scss for Foundation defaults/overrides
+   ============================================================================================================ */
+
+%dark-theme {
+  background: $dark-bg;
+  color: white;
+  
+  #{headings()}, a {
+    color: $very-light-gray;
+  }
+}
+
+%header {
+  background: $secondary-color;
+  color: $gray;
+  
+  a {
+    color: $gray;
+    @include animate(all, $duration: .2s);
+    
+    &:hover, &:active {
+      background: lighten($light-gray, 4%);
+      color: $dark-gray;
+    }
+  }
+}
+
+%header-active {
+  background: $light-gray;
+  color: $dark-gray;
+}
+
+%dark-sidebar {
+  @extend %dark-theme;
+  color: $gray;
+  
+  a, span {
+    display: block;
+    @include animate(all, 0.3s, ease-in-out);
+    
+    &:hover, &:active {
+      color: $light-gray !important;
+    }
+  }
+}
+
+%dark-sidebar-active {
+  background: $black;
+  color: $light-gray;
+  
+  span, a {
+    color: $light-gray !important;
+  }
+  
+  &:after {
+    @extend %pointer-left-bright;
+  }
+}
+
+%tool-tray {
+  background: $accent-bg;
+  border: $hairline;
+  color: $gray;
+  
+  #{headings()}, a {
+    color: $gray;
+    @include animate(all, $duration: .2s);
+  }
+  
+  a:hover, a:active {
+    color: $dark-gray;
+  }
+}
+
+/* ============================================================================================================
+   Icon fonts
+   
+   Apply an icon font to "data-icon" attributes
+   http://css-tricks.com/html-for-icon-font-usage/
+   ============================================================================================================ */
+
+// for icons placed before some text (such as in a button)
+[data-icon]:before {
+  @include icon; //mixin from _webfonts
+  content: attr(data-icon);
+  speak: none; /* Not to be trusted, but hey. */
+}
+
+%button-icon, .button-primary, .button-secondary {
+  [data-icon]:before {
+    margin-right: emCalc(8px);
+  }
+}
+
+%screen-reader-text { /* For text that explains what the icon is (ie "RSS" or "Menu") */
+   position: absolute;
+   top: -9999px;
+   left: -9999px;
+}
+
+.screen-reader-text { /* (Class name version of above) For text that explains what the icon is (ie "RSS" or "Menu") */
+   @extend %screen-reader-text;
+}
+
+// for standalone icons
+%icon-alone {
+  display: inline-block; /* Fix for clickability issue in WebKit */
+}
+
+/* ============================================================================================================
+   HTML5 BP helper modules
+   ============================================================================================================ */
+
+/*
+ * Image replacement - compass' mixin is better tho: http://compass-style.org/reference/compass/typography/text/replacement/
+ */
+
+%ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+
+   &:before {
+       content: "";
+       display: block;
+       width: 0;
+       height: 150%;
+   }
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+@mixin hidden {
+  display: none;
+  visibility: hidden;
+}
+
+%hidden {
+    @include hidden;
+}
+
+// restore the 'hidden' css
+@mixin restore-visible($display: block) {
+  display: $display;
+  visibility: visible;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+%visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+%visuallyhidden-focusable {
+   @extend %visuallyhidden;
+   &:active,
+   &:focus {
+      clip: auto;
+      height: auto;
+      margin: 0;
+      overflow: visible;
+      position: static;
+      width: auto;
+   }
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+%invisible {
+    visibility: hidden;
+}
