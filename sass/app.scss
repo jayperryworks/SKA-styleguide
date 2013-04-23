@@ -44,7 +44,11 @@
 // @import "foundation/components/tooltips";
 // @import "foundation/components/dropdown";
 
-@import "compass";
+// Compass
+@import "compass/CSS3";
+@import "compass/utilities";
+
+// Custom partials
 @import "custom_settings";
 @import "modules";
 
@@ -55,7 +59,7 @@
 .wrapper {
   @include grid-row;
   
-  [role="banner"] {
+  header[role="banner"] {
     @include grid-column($total-columns);
   }
   
@@ -63,7 +67,18 @@
     @include grid-column(9, $float: left);
   }
   
+  aside[role="navigation"] {
+    @include grid-column(3, $float: left);
+  }
+}
+
+// Used by JS -- make the sidebar fixed pos when you scroll past the header
+.fixed-nav {
   [role="navigation"] {
     @include fixed-sidebar(3);
+  }
+  
+  #content {
+    left: gridCalc(3, $total-columns);
   }
 }

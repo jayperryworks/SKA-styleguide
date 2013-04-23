@@ -499,7 +499,7 @@ $pointer-size: 8px;
 
 // for icons placed before some text (such as in a button)
 [data-icon]:before {
-  @include icon; //mixin from _webfonts
+  //@include icon; //mixin from _webfonts
   content: attr(data-icon);
   speak: none; /* Not to be trusted, but hey. */
 }
