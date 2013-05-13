@@ -16,8 +16,15 @@
 
 <body>
 
-<div class="menu">
-  <?php snippet('menu') ?>
+<div id="wrapper">
 
-  <a href="http://getkirby.com" class="madewith">Made with Kirby and <em>&#9829;</em></a>
-</div>
+  <aside id="menu" role="navigation">
+    <!-- client's logo -->
+    <a href="<?php echo url() ?>" id="brand">The SK&A Group</a>
+    
+    <!-- main menu -->
+    <?php snippet('menu') ?>
+    
+    <!-- JPW signoff -->
+    <a href="http://jayperryworks.com" class="madewith">Jay Perry Works</a>
+  </aside>

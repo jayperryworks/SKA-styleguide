@@ -24,26 +24,21 @@ $light-gray: #dcdcdc;
 $very-light-gray: $secondary-color;
 $extremely-light-gray: #F5F5F5;
 
-$orange: #f79622;
+$red: #B32233;
+$orange: #F15822;
+$brown: #6B6864;
+$beige: #B7B6B2;
+$light-beige: #C7C4BB;
+$light-blue: #CCCFD6;
+$med-blue: #99AEBF;
+$dark-blue: #0F1F2D;
+$yellow-green: #D7E286;
+$blue: #204674;
 
-$hairline: 1px solid $med-gray;
+
+$hairline: 1px solid #cdcfd6;
 $hairline-light: 1px solid $light-gray;
 
 $dark-bg: $dark-gray;
 $light-bg: white;
 $accent-bg: $very-light-gray;
-
-
-/* ============================================================================================================
-   Media Query Variables - breakpoints
-   
-   These are Founation defaults, not included in overrides partial -- can add more if needed
-   ============================================================================================================ */
-
-$small-screen: emCalc(768px) !default;
-$medium-screen: emCalc(1280px) !default;
-$large-screen: $row-width; // see _foundation_and_overrides.scss
-
-$small: "only screen and (min-width:"#{$small-screen}")" !default;
-$medium: "only screen and (min-width:"#{$medium-screen}")" !default;
-$large: "only screen and (min-width:"#{$large-screen}")" !default;
