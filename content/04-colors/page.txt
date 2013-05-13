@@ -1,0 +1,40 @@
+Title: Colors
+----
+Text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. 
+
+## Web
+
+### Primary Color
+
+<div style="background: #2bb5ee; width: 30px; height: 30px; margin-bottom: 20px"></div>
+
+	Hex = #2bb5ee
+	RGB = rgb(43,181,238)
+
+### Secondary Color
+
+<div style="background: #ee2bcc; width: 30px; height: 30px; margin-bottom: 20px"></div>
+
+	Hex = #ee2bcc
+	RGB = rgb(238,43,204)
+
+
+## Print
+
+<div style="background: #2bb5ee; width: 30px; height: 30px; margin-bottom: 20px"></div>
+
+### Primary Color
+
+	C = 60
+	M = 10
+	Y = 0
+	K = 0
+
+### Secondary Color
+
+<div style="background: #ee2bcc; width: 30px; height: 30px; margin-bottom: 20px"></div>
+
+	C = 20
+	M = 84
+	Y = 0
+	K = 0
