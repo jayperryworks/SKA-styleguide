@@ -2,14 +2,9 @@
    Custom Global Variables
    ============================================================================================================ */
 
-// header
-$header-h: emCalc(62px); // height of the header bar
-$header-padding: emCalc(20px);
-
 // content
 $menu-w: 3; // columns - width of the menu sidebar [role=navigation]
-$content-w: 12; // columns - width of the content [role=main]
-$resources-w: 4; // columns - width of fhe resources sidebar [role=complimentary]
+$content-w: 9; // columns - width of the content [role=main]
 
 
 /* ============================================================================================================
@@ -29,6 +24,8 @@ $orange: #F15822;
 $brown: #6B6864;
 $beige: #B7B6B2;
 $light-beige: #C7C4BB;
+$very-light-beige: #f7f4ee;
+
 $light-blue: #CCCFD6;
 $med-blue: #99AEBF;
 $dark-blue: #0F1F2D;
@@ -37,8 +34,7 @@ $blue: #204674;
 
 
 $hairline: 1px solid #cdcfd6;
-$hairline-light: 1px solid $light-gray;
 
-$dark-bg: $dark-gray;
+$dark-bg: $very-light-beige;
 $light-bg: white;
-$accent-bg: $very-light-gray;
+$accent-bg: $med-blue;

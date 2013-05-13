@@ -62,12 +62,21 @@
 }
 
 #menu {
-  @include fixed-sidebar(4);
-  background: $beige;
+  @include fixed-sidebar($menu-w);
+  @extend %top-padding;
+  background: $dark-bg;
 }
 
 #content {
-  @include grid-column(8);
+  @include grid-column($content-w);
+  @extend %top-padding;
   //@include grid-row(nest);
-  left: gridCalc(4, $total-columns);
+  left: gridCalc($menu-w, $total-columns);
+  margin-left: 0;
+  //padding-left: $column-gutter;
+  
+  
+  h1:first-child {
+    margin-top: 0;
+  }
 }

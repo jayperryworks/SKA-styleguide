@@ -4,6 +4,10 @@
    Layout (containers)
    ============================================================================================================ */
 
+%top-padding {
+  padding-top: emCalc(48px);
+}
+
 // fixed position
 @mixin fixed {
   position: fixed;
@@ -219,11 +223,11 @@
 }
 
 %button-secondary, .button-secondary {
-  @include button-default($gray);
+  @include button-default($beige);
 }
 
 %button-utility, .button-utility {
-  @include button-default($very-light-gray, $text: $gray, $border: $hairline);
+  @include button-default($light-beige, $text: $dark-blue, $border: $hairline);
 }
 
 %button-alert, .button-alert {
@@ -255,7 +259,7 @@
 */
 
 %drop-shadow-light {
-  @include single-box-shadow(lighten($med-gray, 10%), $voff: 1px, $blur: 10px);
+  @include single-box-shadow(lighten($light-beige, 10%), $voff: 1px, $blur: 10px);
 }
 %drop-shadow-dark {
   @include single-box-shadow($black, $voff: 1px, $blur: 10px);
@@ -332,7 +336,7 @@ $pointer-size: 8px;
   margin: 0 $gutter $gutter 0;
   padding: $padding;
   overflow: hidden;
-  border: $hairline-light;
+  border: $hairline;
   @include radius;
   @include animate(all);
   
