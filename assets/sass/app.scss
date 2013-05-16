@@ -52,6 +52,14 @@
 @import "modules";
 
 /* ============================================================================================================
+   Global styles
+   ============================================================================================================ */
+
+img {
+  max-width: 100%;
+}
+
+/* ============================================================================================================
    Layout & Containers
    ============================================================================================================ */
 
@@ -68,15 +76,18 @@
   
   li {
     list-style: none;
-  }
+    margin-left: -#{$column-gutter/2};
+    margin-right: -#{$column-gutter/2};
 
-  a {
-    display: block;
-    padding: emCalc(12px) $column-gutter;
-    background: white;
+    a {
+      display: block;
+      padding: emCalc(12px) $column-gutter;
+      color: $body-font-color;
+    }
   }
 
   .active {
+    color: white;
     background: $light-beige;
   }
 }
@@ -93,4 +104,15 @@
   h1:first-child {
     margin-top: 0;
   }
+}
+
+/* ============================================================================================================
+   Menu
+   ============================================================================================================ */
+
+#brand {
+  display: block;
+  margin: 0 auto emCalc(24px) auto;
+  padding-right: emCalc(10px);
+  max-width: gridCalc(10, $total-columns);
 }

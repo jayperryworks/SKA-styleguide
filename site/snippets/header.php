@@ -10,7 +10,7 @@
   <?php echo css('assets/stylesheets/normalize.css') ?>
   <?php echo css('assets/stylesheets/app.css') ?>
   
-  <?php echo js('javascripts/vendor/custom.modernizr.js') ?>
+  <?php echo js('assets/javascripts/vendor/custom.modernizr.js') ?>
 
 </head>
 
@@ -20,7 +20,9 @@
 
   <aside id="menu" role="navigation">
     <!-- client's logo -->
-    <a href="<?php echo url() ?>" id="brand">The SK&amp;A Group</a>
+    <a href="<?php echo url() ?>" id="brand">
+      <img src="assets/images/ska-group-logo.png" alt="The SK&amp;A Group" />
+    </a>
     
     <!-- main menu -->
     <?php snippet('menu') ?>
