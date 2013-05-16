@@ -65,6 +65,20 @@
   @include fixed-sidebar($menu-w);
   @extend %top-padding;
   background: $dark-bg;
+  
+  li {
+    list-style: none;
+  }
+
+  a {
+    display: block;
+    padding: emCalc(12px) $column-gutter;
+    background: white;
+  }
+
+  .active {
+    background: $light-beige;
+  }
 }
 
 #content {

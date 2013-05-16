@@ -20,7 +20,7 @@
 
   <aside id="menu" role="navigation">
     <!-- client's logo -->
-    <a href="<?php echo url() ?>" id="brand">The SK&A Group</a>
+    <a href="<?php echo url() ?>" id="brand">The SK&amp;A Group</a>
     
     <!-- main menu -->
     <?php snippet('menu') ?>
