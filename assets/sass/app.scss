@@ -92,7 +92,7 @@ img {
   }
 }
 
-#content {
+#content, footer {
   @include grid-column($content-w);
   @extend %top-padding;
   //@include grid-row(nest);

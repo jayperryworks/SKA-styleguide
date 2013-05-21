@@ -4944,7 +4944,7 @@ table tfoot tr td {
    Layout (containers)
    ============================================================================================================ */
 /* line 7, ../sass/_modules.scss */
-#menu, #content {
+#menu, #content, footer {
   padding-top: 3em;
 }
 
@@ -5497,7 +5497,7 @@ img {
 }
 
 /* line 95, ../sass/app.scss */
-#content {
+#content, footer {
   position: relative;
   padding-left: 0.75em;
   padding-right: 0.75em;
@@ -5506,7 +5506,7 @@ img {
   margin-left: 0;
 }
 /* line 104, ../sass/app.scss */
-#content h1:first-child {
+#content h1:first-child, footer h1:first-child {
   margin-top: 0;
 }
 
