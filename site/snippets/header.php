@@ -21,7 +21,8 @@
   <header id="menu" role="navigation">
     <!-- client's logo -->
     <a href="<?php echo url() ?>" id="brand">
-      <img src="/assets/images/ska-group-logo.png" alt="The SK&amp;A Group" />
+      <img src="<?php echo url("/assets/images/ska-group-logo.png") ?>" alt="The SK&amp;A Group" />
+      
     </a>
     
     <!-- main menu -->
