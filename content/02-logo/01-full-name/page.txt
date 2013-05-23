@@ -1,0 +1,69 @@
+Title: Full Name
+----
+Text:
+
+This lockup shows the affiliate's full (legal) name alongside the logotype.
+
+### Positive (for light backgrounds)
+
+(image: dc-pos.png alt: SK&A DC class: logo)
+
+<a href="#" data-dropdown="dc-pos" class="button dropdown">Download: EPS</a>
+
+<ul id="dc-pos" class="f-dropdown">
+	<li>(file: SK&ADC_full_cmyk_positive.eps text: Print - CMYK)</li>
+	<li>(file: SK&ADC_full_rgb_positive.eps text: Screen - RGB)</li>
+	<li>(file: SK&ADC_full_grayscale_positive.eps text: Black & White)</li>
+</ul>
+
+(image: md-pos.png alt: SK&A MD class: logo)
+
+<a href="#" data-dropdown="md-pos" class="button dropdown">Download: EPS</a>
+
+<ul id="md-pos" class="f-dropdown">
+	<li>(file: SK&AMD_full_cmyk_positive.eps text: Print - CMYK)</li>
+	<li>(file: SK&AMD_full_rgb_positive.eps text: Screen - RGB)</li>
+	<li>(file: SK&AMD_full_grayscale_positive.eps text: Black & White)</li>
+</ul>
+
+(image: eti-pos.png alt: ETI class: logo)
+
+<a href="#" data-dropdown="eti-pos" class="button dropdown">Download: EPS</a>
+
+<ul id="eti-pos" class="f-dropdown">
+	<li>(file: ETI_full_cmyk_positive.eps text: Print - CMYK)</li>
+	<li>(file: ETI_full_rgb_positive.eps text: Screen - RGB)</li>
+	<li>(file: ETI_full_grayscale_positive.eps text: Black & White)</li>
+</ul>
+
+### Reverse (for dark backgrounds)
+
+(image: dc-rev.png alt: SK&A DC class: logo)
+
+<a href="#" data-dropdown="dc-rev" class="button dropdown">Download: EPS</a>
+
+<ul id="dc-rev" class="f-dropdown">
+	<li>(file: SK&ADC_full_cmyk_reverse.eps text: Print - CMYK)</li>
+	<li>(file: SK&ADC_full_rgb_reverse.eps text: Screen - RGB)</li>
+	<li>(file: SK&ADC_full_grayscale_reverse.eps text: Black & White)</li>
+</ul>
+
+(image: md-rev.png alt: SK&A MD class: logo)
+
+<a href="#" data-dropdown="md-rev" class="button dropdown">Download: EPS</a>
+
+<ul id="md-rev" class="f-dropdown">
+	<li>(file: SK&AMD_full_cmyk_reverse.eps text: Print - CMYK)</li>
+	<li>(file: SK&AMD_full_rgb_reverse.eps text: Screen - RGB)</li>
+	<li>(file: SK&AMD_full_grayscale_reverse.eps text: Black & White)</li>
+</ul>
+
+(image: eti-rev.png alt: ETi class: logo)
+
+<a href="#" data-dropdown="eti-rev" class="button dropdown">Download: EPS</a>
+
+<ul id="eti-rev" class="f-dropdown">
+	<li>(file: ETI_full_cmyk_reverse.eps text: Print - CMYK)</li>
+	<li>(file: ETI_full_rgb_reverse.eps text: Screen - RGB)</li>
+	<li>(file: ETI_full_grayscale_reverse.eps text: Black & White)</li>
+</ul>

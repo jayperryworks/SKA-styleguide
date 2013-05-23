@@ -1,4 +1,114 @@
 @charset "UTF-8";
+/*
+ * Web Fonts from fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and 
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2012 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      Canada Type
+ * License URL: http://www.fontspring.com/fflicense/canada-type
+ *
+ *
+ */
+@font-face {
+  font-family: 'GibsonBold';
+  src: url("../fonts/Gibson-Bold-webfont.eot");
+  src: url("../fonts/Gibson-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Gibson-Bold-webfont.woff") format("woff"), url("../fonts/Gibson-Bold-webfont.ttf") format("truetype"), url("../fonts/Gibson-Bold-webfont.svg#GibsonBold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GibsonRegular';
+  src: url("../fonts/Gibson-Regular-webfont.eot");
+  src: url("../fonts/Gibson-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Gibson-Regular-webfont.woff") format("woff"), url("../fonts/Gibson-Regular-webfont.ttf") format("truetype"), url("../fonts/Gibson-Regular-webfont.svg#GibsonRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GibsonItalic';
+  src: url("../fonts/Gibson-Italic-webfont.eot");
+  src: url("../fonts/Gibson-Italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Gibson-Italic-webfont.woff") format("woff"), url("../fonts/Gibson-Italic-webfont.ttf") format("truetype"), url("../fonts/Gibson-Italic-webfont.svg#GibsonItalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GibsonLightBold';
+  src: url("../fonts/Gibson-SemiBold-webfont.eot");
+  src: url("../fonts/Gibson-SemiBold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Gibson-SemiBold-webfont.woff") format("woff"), url("../fonts/Gibson-SemiBold-webfont.ttf") format("truetype"), url("../fonts/Gibson-SemiBold-webfont.svg#GibsonLightBold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GibsonLightBoldItalic';
+  src: url("../fonts/Gibson-SemiBoldItalic-webfont.eot");
+  src: url("../fonts/Gibson-SemiBoldItalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Gibson-SemiBoldItalic-webfont.woff") format("woff"), url("../fonts/Gibson-SemiBoldItalic-webfont.ttf") format("truetype"), url("../fonts/Gibson-SemiBoldItalic-webfont.svg#GibsonLightBoldItalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GibsonLightRegular';
+  src: url("../fonts/Gibson-Light-webfont.eot");
+  src: url("../fonts/Gibson-Light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Gibson-Light-webfont.woff") format("woff"), url("../fonts/Gibson-Light-webfont.ttf") format("truetype"), url("../fonts/Gibson-Light-webfont.svg#GibsonLightRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*
+ * Web Fonts from fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and 
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2012 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      FontSite Inc.
+ * License URL: http://www.fontspring.com/fflicense/fontsite
+ *
+ *
+ */
+@font-face {
+  font-family: 'CenturyModernFSRegular';
+  src: url("../fonts/CenturyModern-Book-webfont.eot");
+  src: url("../fonts/CenturyModern-Book-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/CenturyModern-Book-webfont.woff") format("woff"), url("../fonts/CenturyModern-Book-webfont.ttf") format("truetype"), url("../fonts/CenturyModern-Book-webfont.svg#CenturyModernFSRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CenturyModernFSBoldItalic';
+  src: url("../fonts/CenturyModern-BoldItalic-webfont.eot");
+  src: url("../fonts/CenturyModern-BoldItalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/CenturyModern-BoldItalic-webfont.woff") format("woff"), url("../fonts/CenturyModern-BoldItalic-webfont.ttf") format("truetype"), url("../fonts/CenturyModern-BoldItalic-webfont.svg#CenturyModernFSBoldItalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* line 160, ../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.1/scss/foundation/_foundation-global.scss */
 *,
 *:before,
@@ -16,10 +126,10 @@ body {
 
 /* line 168, ../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.1/scss/foundation/_foundation-global.scss */
 body {
-  background: white;
-  color: #222222;
+  background: #f7f4ee;
+  color: #4d4d4d;
   padding: 0;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "GibsonLightRegular", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1;
@@ -114,7 +224,7 @@ select {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 75em;
+  max-width: 87.5em;
   *zoom: 1;
 }
 /* line 152, ../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.1/scss/foundation/_foundation-global.scss */
@@ -1135,10 +1245,10 @@ p.lead {
 /* line 111, ../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.1/scss/foundation/components/_type.scss */
 .subheader {
   line-height: 1.4;
-  color: #6f6f6f;
+  color: #2275ae;
   font-weight: 300;
-  margin-top: 0.2em;
-  margin-bottom: 0.5em;
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
 }
 
 /* Typography resets */
@@ -1186,7 +1296,7 @@ a img {
 /* Default paragraph styles */
 /* line 158, ../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.1/scss/foundation/components/_type.scss */
 p {
-  font-family: inherit;
+  font-family: "GibsonLightRegular", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 1em;
   line-height: 1.6;
@@ -1202,45 +1312,45 @@ p aside {
 /* Default header styles */
 /* line 175, ../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.1/scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: bold;
+  font-family: "GibsonRegular", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
   font-style: normal;
-  color: #222222;
+  color: #091f2e;
   text-rendering: optimizeLegibility;
-  line-height: 1.4;
-  margin-top: 0.2em;
-  margin-bottom: 0.5em;
+  line-height: 1.2;
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
 }
 /* line 185, ../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.1/scss/foundation/components/_type.scss */
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
   font-size: 60%;
-  color: #6f6f6f;
+  color: #2275ae;
   line-height: 0;
 }
 
 /* line 192, ../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.1/scss/foundation/components/_type.scss */
 h1 {
-  font-size: 2.75em;
+  font-size: 3em;
 }
 
 /* line 193, ../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.1/scss/foundation/components/_type.scss */
 h2 {
-  font-size: 2.3125em;
+  font-size: 2.25em;
 }
 
 /* line 194, ../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.1/scss/foundation/components/_type.scss */
 h3 {
-  font-size: 1.6875em;
+  font-size: 1.5em;
 }
 
 /* line 195, ../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.1/scss/foundation/components/_type.scss */
 h4 {
-  font-size: 1.4375em;
+  font-size: 1.125em;
 }
 
 /* line 196, ../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.1/scss/foundation/components/_type.scss */
 h5 {
-  font-size: 1.125em;
+  font-size: 1em;
 }
 
 /* line 197, ../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.1/scss/foundation/components/_type.scss */
@@ -1282,7 +1392,7 @@ small {
 code {
   font-family: Consolas, "Liberation Mono", Courier, monospace;
   font-weight: bold;
-  color: #bb390c;
+  color: #a2a7b4;
 }
 
 /* Lists */
@@ -1293,7 +1403,7 @@ dl {
   font-size: 1em;
   line-height: 1.6;
   margin-bottom: 1.25em;
-  list-style-position: outside;
+  list-style-position: inside;
 }
 
 /* Unordered Lists */
@@ -1359,7 +1469,7 @@ abbr,
 acronym {
   text-transform: uppercase;
   font-size: 90%;
-  color: #222222;
+  color: #4d4d4d;
   border-bottom: 1px dotted #dddddd;
   cursor: help;
 }
@@ -1380,7 +1490,7 @@ blockquote {
 blockquote cite {
   display: block;
   font-size: 0.8125em;
-  color: #555555;
+  color: #1a5883;
 }
 /* line 308, ../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.1/scss/foundation/components/_type.scss */
 blockquote cite:before {
@@ -1389,14 +1499,14 @@ blockquote cite:before {
 /* line 313, ../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.1/scss/foundation/components/_type.scss */
 blockquote cite a,
 blockquote cite a:visited {
-  color: #555555;
+  color: #1a5883;
 }
 
 /* line 319, ../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.1/scss/foundation/components/_type.scss */
 blockquote,
 blockquote p {
   line-height: 1.6;
-  color: #6f6f6f;
+  color: #2275ae;
 }
 
 /* Microformats */
@@ -1554,7 +1664,7 @@ blockquote p {
   padding-right: 1.5em;
   padding-bottom: 0.8125em;
   padding-left: 1.5em;
-  font-size: 1em;
+  font-size: 1.125em;
   background-color: #b32233;
   border-color: #881a27;
   color: white;
@@ -2401,7 +2511,7 @@ form.custom .custom.disabled {
 /* line 107, ../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.1/scss/foundation/components/_dropdown-buttons.scss */
 .dropdown.button {
   position: relative;
-  padding-right: 3.1875em;
+  padding-right: 2.5em;
 }
 /* line 45, ../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.1/scss/foundation/components/_dropdown-buttons.scss */
 .dropdown.button:before {
@@ -2416,9 +2526,9 @@ form.custom .custom.disabled {
 }
 /* line 80, ../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.1/scss/foundation/components/_dropdown-buttons.scss */
 .dropdown.button:before {
-  border-width: 0.5625em;
-  right: 1.5em;
-  margin-top: -0.25em;
+  border-width: 0.25em;
+  right: 1.25em;
+  margin-top: -0.125em;
 }
 /* line 99, ../../../../../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.1/scss/foundation/components/_dropdown-buttons.scss */
 .dropdown.button:before {
@@ -4944,7 +5054,7 @@ table tfoot tr td {
    Layout (containers)
    ============================================================================================================ */
 /* line 7, ../sass/_modules.scss */
-#menu, #content, footer {
+#menu, #content {
   padding-top: 3em;
 }
 
@@ -5064,7 +5174,7 @@ table tfoot tr td {
   padding-right: 1.5em;
   padding-bottom: 0.8125em;
   padding-left: 1.5em;
-  font-size: 1em;
+  font-size: 1.125em;
   -webkit-transition: all 0.2s ease-in-out 0;
   -moz-transition: all 0.2s ease-in-out 0;
   -o-transition: all 0.2s ease-in-out 0;
@@ -5098,7 +5208,7 @@ table tfoot tr td {
   padding-right: 1.5em;
   padding-bottom: 0.8125em;
   padding-left: 1.5em;
-  font-size: 1em;
+  font-size: 1.125em;
   -webkit-transition: all 0.2s ease-in-out 0;
   -moz-transition: all 0.2s ease-in-out 0;
   -o-transition: all 0.2s ease-in-out 0;
@@ -5132,7 +5242,7 @@ table tfoot tr td {
   padding-right: 1.5em;
   padding-bottom: 0.8125em;
   padding-left: 1.5em;
-  font-size: 1em;
+  font-size: 1.125em;
   -webkit-transition: all 0.2s ease-in-out 0;
   -moz-transition: all 0.2s ease-in-out 0;
   -o-transition: all 0.2s ease-in-out 0;
@@ -5166,7 +5276,7 @@ table tfoot tr td {
   padding-right: 1.5em;
   padding-bottom: 0.8125em;
   padding-left: 1.5em;
-  font-size: 1em;
+  font-size: 1.125em;
   -webkit-transition: all 0.2s ease-in-out 0;
   -moz-transition: all 0.2s ease-in-out 0;
   -o-transition: all 0.2s ease-in-out 0;
@@ -5439,32 +5549,212 @@ table tfoot tr td {
 /*
  * Hide visually and from screenreaders, but maintain layout
  */
+/* 
+	Max width before this PARTICULAR table gets nasty
+	This query will take effect for any screen smaller than 760px
+	and also iPads specifically.
+	*/
+@media only screen and (max-width: 48em), (min-device-width: 48em) and (max-device-width: 1024px) {
+  /* Force table to not be like tables anymore */
+  /* line 11, ../sass/_tables.scss */
+  table, thead, tbody, th, td, tr {
+    display: block !important;
+  }
+
+  /* line 15, ../sass/_tables.scss */
+  table {
+    border: none;
+  }
+
+  /* Hide table headers (but not display: none;, for accessibility) */
+  /* line 20, ../sass/_tables.scss */
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  /* line 26, ../sass/_tables.scss */
+  tr {
+    margin-top: 0.75em;
+    padding-top: 0.375em;
+    border-top: 1px solid #cdcfd6;
+  }
+
+  /* line 32, ../sass/_tables.scss */
+  td {
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 33.33333% !important;
+  }
+
+  /* line 40, ../sass/_tables.scss */
+  td:before {
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+
+  /*
+  Label the data
+  */
+  /* line 55, ../sass/_tables.scss */
+  td:nth-of-type(1):before {
+    content: "Swatch";
+  }
+
+  /* line 56, ../sass/_tables.scss */
+  td:nth-of-type(2):before {
+    content: "Hex";
+  }
+
+  /* line 57, ../sass/_tables.scss */
+  td:nth-of-type(3):before {
+    content: "CMYK";
+  }
+
+  /* line 58, ../sass/_tables.scss */
+  td:nth-of-type(4):before {
+    content: "RGB";
+  }
+
+  /* line 59, ../sass/_tables.scss */
+  td:nth-of-type(5):before {
+    content: "Pantone";
+  }
+}
+/* Smartphones (portrait and landscape) ----------- */
+/* iPads (portrait and landscape) ----------- */
 /* ============================================================================================================
    Global styles
    ============================================================================================================ */
-/* line 58, ../sass/app.scss */
+/* line 62, ../sass/app.scss */
 img {
   max-width: 100%;
+}
+
+/* line 66, ../sass/app.scss */
+.button {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+/* line 72, ../sass/app.scss */
+.f-dropdown li {
+  padding: 0.75em;
+  font-family: "GibsonRegular", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  letter-spacing: 0;
+}
+
+/* line 79, ../sass/app.scss */
+table {
+  border: none;
+}
+/* line 82, ../sass/app.scss */
+table img {
+  max-width: 3.75em;
+}
+
+/* line 87, ../sass/app.scss */
+p, ul {
+  letter-spacing: 0.0625em;
+}
+
+/* line 91, ../sass/app.scss */
+h1 {
+  font-family: "CenturyModernFSRegular", "Georgia", "Palatino", Times, serif;
+  letter-spacing: -0.0375em;
+  color: #0f1f2d;
+}
+
+/* line 97, ../sass/app.scss */
+h2 {
+  font-family: "CenturyModernFSRegular", "Georgia", "Palatino", Times, serif;
+  letter-spacing: -0.0375em;
+  color: #b32233;
+}
+
+/* line 103, ../sass/app.scss */
+h3 {
+  font-family: "GibsonLightBold", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  color: #99aebf;
+}
+
+/* line 109, ../sass/app.scss */
+.alt {
+  font-family: "GibsonRegular", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+/* line 113, ../sass/app.scss */
+strong {
+  font-family: "GibsonRegular", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+
+/* line 118, ../sass/app.scss */
+.button, .dropdown {
+  font-family: "GibsonRegular", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  letter-spacing: 0;
+  border: none;
+}
+
+/* line 125, ../sass/app.scss */
+.logo {
+  border: 1px solid #cdcfd6;
+  margin-top: 1.125em;
+}
+
+/* line 130, ../sass/app.scss */
+.title-logo {
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 135, ../sass/app.scss */
+hr {
+  color: #cdcfd6;
 }
 
 /* ============================================================================================================
    Layout & Containers
    ============================================================================================================ */
-/* line 66, ../sass/app.scss */
+/* line 143, ../sass/app.scss */
+html {
+  height: 100%;
+  overflow-y: auto;
+}
+
+/* line 148, ../sass/app.scss */
+body {
+  height: 100%;
+  overflow-y: auto;
+}
+
+/* line 153, ../sass/app.scss */
 #wrapper {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 75em;
+  max-width: 87.5em;
   overflow: hidden;
   *zoom: 1;
-  margin: 0;
-  left: 0;
+  height: 100%;
+  margin: 0 auto;
+  overflow: visible;
+  background: #f7f4ee;
 }
 
-/* line 72, ../sass/app.scss */
+/* line 162, ../sass/app.scss */
 #menu {
   position: relative;
   padding-left: 0.75em;
@@ -5475,48 +5765,85 @@ img {
   top: 0;
   bottom: 0;
   overflow-y: auto;
-  max-width: 18.75em;
+  max-width: 21.875em;
   background: #f7f4ee;
 }
-/* line 77, ../sass/app.scss */
+/* line 167, ../sass/app.scss */
 #menu li {
   list-style: none;
-  margin-left: -0.75em;
-  margin-right: -0.75em;
 }
-/* line 82, ../sass/app.scss */
+/* line 172, ../sass/app.scss */
 #menu li a {
   display: block;
-  padding: 0.75em 1.5em;
-  color: #222222;
-}
-/* line 89, ../sass/app.scss */
-#menu .active {
-  color: white;
-  background: #c7c4bb;
+  padding: 0.375em 1.5em;
+  color: #6b6864;
 }
 
-/* line 95, ../sass/app.scss */
-#content, footer {
+/* line 180, ../sass/app.scss */
+.depth-1 {
+  font-family: "GibsonRegular", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 1.125em;
+}
+
+/* line 186, ../sass/app.scss */
+.depth-2 a, .depth-3 a, .depth-4 a {
+  font-family: "GibsonLightRegular", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 0.875em;
+}
+
+/* line 192, ../sass/app.scss */
+.active {
+  color: white !important;
+  background: #99aebf;
+}
+
+/* line 197, ../sass/app.scss */
+#content {
   position: relative;
   padding-left: 0.75em;
   padding-right: 0.75em;
   width: 75%;
   left: 25%;
   margin-left: 0;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-bottom: 1.5em;
+  background: #fff;
 }
-/* line 104, ../sass/app.scss */
-#content h1:first-child, footer h1:first-child {
+/* line 208, ../sass/app.scss */
+#content h1:first-child {
   margin-top: 0;
+  line-height: 1;
+}
+
+/* line 214, ../sass/app.scss */
+#content {
+  min-height: 100%;
+}
+
+/* line 219, ../sass/app.scss */
+table {
+  position: relative;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  width: 100%;
+}
+
+/* line 223, ../sass/app.scss */
+footer {
+  margin-top: 1.5em;
+  font-size: 0.75em;
+  color: #99aebf;
+  font-family: "GibsonRegular", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 
 /* ============================================================================================================
    Menu
    ============================================================================================================ */
-/* line 113, ../sass/app.scss */
+/* line 234, ../sass/app.scss */
 #brand {
   display: block;
-  margin: 0 auto 1.5em auto;
+  margin: 0.1875em auto 1.5em auto;
   padding-right: 0.625em;
   max-width: 83.33333%;
 }

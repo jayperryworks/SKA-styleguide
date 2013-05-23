@@ -4,19 +4,4 @@ Title: Styleguide
 
 Text: 
 
-Welcome to Kirby Styleguide Theme. 
-It's a simple theme for creating brand or product styleguides based on the (link: http://getkirby.com text: Kirby CMS). 
-
-All brand elements in this demo are made up by me and are not related to any existing brand. 
-
-## Download 
-
-The theme is available on Github: <https://github.com/bastianallgeier/kirbystyles>
-
-## License
-
-You are free to use and modify this theme, but you must (link: http://getkirby.com/buy text: purchase a Kirby license) if you want to use it in production. 
-
-## Feedback
-
-<bastian@getkirby.com>
+(image: sk&a-group.gif alt: The SK&A Group class: title-logo)

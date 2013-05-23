@@ -1,3 +1,6 @@
+// Webfonts
+@import "fonts";
+
 // Global Foundation Settings
 @import "settings";
 
@@ -50,6 +53,7 @@
 // Custom partials
 @import "custom_settings";
 @import "modules";
+@import "tables";
 
 /* ============================================================================================================
    Global styles
@@ -59,14 +63,100 @@ img {
   max-width: 100%;
 }
 
+.button {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.f-dropdown {
+  li {
+    padding: emCalc(12px);
+    font-family: $gibson;
+    letter-spacing: 0;
+  }
+}
+
+table {
+  border: none;
+
+  img {
+    max-width: emCalc(60px);
+  }
+}
+
+p, ul {
+  letter-spacing: emCalc(1px);
+}
+
+h1 {
+  font-family: $century;
+  letter-spacing: -#{emCalc(0.6px)};
+  color: $dark-blue;
+}
+
+h2 {
+  font-family: $century;
+  letter-spacing: -#{emCalc(0.6px)};
+  color: $red;
+}
+
+h3 {
+  font-family: $gibson-semibold;
+  color: $med-blue;
+}
+
+// alternate sans-serif headline setting
+.alt {
+  font-family: $gibson;
+}
+
+strong {
+  font-family: $gibson;
+  font-weight: normal;
+}
+
+.button, .dropdown {
+  font-family: $gibson;
+  font-weight: normal;
+  letter-spacing: 0;
+  border: none;
+}
+
+.logo {
+  border: $hairline;
+  margin-top: emCalc(18px);
+}
+
+.title-logo {
+  display: block;
+  margin: 0 auto;
+}
+
+hr {
+  color: #cdcfd6;
+}
+
 /* ============================================================================================================
    Layout & Containers
    ============================================================================================================ */
 
+html {
+  height: 100%;
+  overflow-y: auto;
+}
+
+body {
+  height: 100%;
+  overflow-y: auto;
+}
+
 #wrapper {
   @include grid-row;
-  margin: 0;
-  left: 0;
+  height: 100%;
+  margin: 0 auto;
+  overflow: visible;
+  background: $body-bg;
+  // left: 0;
 }
 
 #menu {
@@ -76,34 +166,65 @@ img {
   
   li {
     list-style: none;
-    margin-left: -#{$column-gutter/2};
-    margin-right: -#{$column-gutter/2};
+    //margin-left: -#{$column-gutter/2};
+    //margin-right: -#{$column-gutter/2};
 
     a {
       display: block;
-      padding: emCalc(12px) $column-gutter;
-      color: $body-font-color;
+      padding: emCalc(6px) $column-gutter;
+      color: #6b6864; //$body-font-color;
     }
-  }
-
-  .active {
-    color: white;
-    background: $light-beige;
   }
 }
 
-#content, footer {
+.depth-1 {
+  font-family: $gibson;
+  font-size: emCalc(18px);
+}
+
+.depth-2, .depth-3, .depth-4 {
+  a {
+    font-family: $gibson-light;
+    font-size: emCalc(14px);
+  }
+}
+
+.active {
+color: white !important;
+background: $med-blue;
+}
+
+#content {
   @include grid-column($content-w);
-  @extend %top-padding;
   //@include grid-row(nest);
   left: gridCalc($menu-w, $total-columns);
   margin-left: 0;
-  //padding-left: $column-gutter;
+  padding-left: $column-gutter;
+  padding-right: $column-gutter;
+  padding-bottom: $column-gutter;
+  background: #fff;
   
   
   h1:first-child {
     margin-top: 0;
+    line-height: 1;
   }
+}
+
+#content {
+  @extend %top-padding;
+  min-height: 100%;
+}
+
+table {
+  @include grid-column(12);
+}
+
+footer {
+  margin-top: emCalc(24px);
+  font-size: emCalc(12px);
+  color: $med-blue;
+  font-family: $gibson;
 }
 
 /* ============================================================================================================
@@ -112,7 +233,7 @@ img {
 
 #brand {
   display: block;
-  margin: 0 auto emCalc(24px) auto;
+  margin: emCalc(3px) auto emCalc(24px) auto;
   padding-right: emCalc(10px);
   max-width: gridCalc(10, $total-columns);
 }

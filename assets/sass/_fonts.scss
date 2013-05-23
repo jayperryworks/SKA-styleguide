@@ -1,0 +1,151 @@
+/*
+ * Web Fonts from fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and 
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2012 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      Canada Type
+ * License URL: http://www.fontspring.com/fflicense/canada-type
+ *
+ *
+ */
+
+@font-face {
+    font-family: 'GibsonBold';
+    src: url('../fonts/Gibson-Bold-webfont.eot');
+    src: url('../fonts/Gibson-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Gibson-Bold-webfont.woff') format('woff'),
+         url('../fonts/Gibson-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/Gibson-Bold-webfont.svg#GibsonBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'GibsonRegular';
+    src: url('../fonts/Gibson-Regular-webfont.eot');
+    src: url('../fonts/Gibson-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Gibson-Regular-webfont.woff') format('woff'),
+         url('../fonts/Gibson-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Gibson-Regular-webfont.svg#GibsonRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'GibsonItalic';
+    src: url('../fonts/Gibson-Italic-webfont.eot');
+    src: url('../fonts/Gibson-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Gibson-Italic-webfont.woff') format('woff'),
+         url('../fonts/Gibson-Italic-webfont.ttf') format('truetype'),
+         url('../fonts/Gibson-Italic-webfont.svg#GibsonItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GibsonLightBold';
+    src: url('../fonts/Gibson-SemiBold-webfont.eot');
+    src: url('../fonts/Gibson-SemiBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Gibson-SemiBold-webfont.woff') format('woff'),
+         url('../fonts/Gibson-SemiBold-webfont.ttf') format('truetype'),
+         url('../fonts/Gibson-SemiBold-webfont.svg#GibsonLightBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GibsonLightBoldItalic';
+    src: url('../fonts/Gibson-SemiBoldItalic-webfont.eot');
+    src: url('../fonts/Gibson-SemiBoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Gibson-SemiBoldItalic-webfont.woff') format('woff'),
+         url('../fonts/Gibson-SemiBoldItalic-webfont.ttf') format('truetype'),
+         url('../fonts/Gibson-SemiBoldItalic-webfont.svg#GibsonLightBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GibsonLightRegular';
+    src: url('../fonts/Gibson-Light-webfont.eot');
+    src: url('../fonts/Gibson-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Gibson-Light-webfont.woff') format('woff'),
+         url('../fonts/Gibson-Light-webfont.ttf') format('truetype'),
+         url('../fonts/Gibson-Light-webfont.svg#GibsonLightRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*
+ * Web Fonts from fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and 
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2012 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      FontSite Inc.
+ * License URL: http://www.fontspring.com/fflicense/fontsite
+ *
+ *
+ */
+
+@font-face {
+    font-family: 'CenturyModernFSRegular';
+    src: url('../fonts/CenturyModern-Book-webfont.eot');
+    src: url('../fonts/CenturyModern-Book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/CenturyModern-Book-webfont.woff') format('woff'),
+         url('../fonts/CenturyModern-Book-webfont.ttf') format('truetype'),
+         url('../fonts/CenturyModern-Book-webfont.svg#CenturyModernFSRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'CenturyModernFSBoldItalic';
+    src: url('../fonts/CenturyModern-BoldItalic-webfont.eot');
+    src: url('../fonts/CenturyModern-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/CenturyModern-BoldItalic-webfont.woff') format('woff'),
+         url('../fonts/CenturyModern-BoldItalic-webfont.ttf') format('truetype'),
+         url('../fonts/CenturyModern-BoldItalic-webfont.svg#CenturyModernFSBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+$default-font: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$default-serif: "Georgia", "Palatino", Times, serif;
+
+$gibson: "GibsonRegular", $default-font;
+$gibson-light: "GibsonLightRegular", $default-font;
+$gibson-semibold: "GibsonLightBold", $default-font;
+
+$century: "CenturyModernFSRegular", $default-serif;
+$century-italic: "CenturyModernFSBoldItalic", $default-serif;
+

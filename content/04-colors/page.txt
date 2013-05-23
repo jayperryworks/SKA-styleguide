@@ -1,40 +1,20 @@
 Title: Colors
 ----
-Text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. 
+Text: 
 
-## Web
+The SK&A and ETI brands share a common color palette. This helps keep things simple, on the one hand, but also helps to keep the two brands consistent. SK&A and ETI each have their own "primary" color (red for SK&A and blue for ETI), but the rest of the palette contains neutrals and complimentary accent colors. You can easily mix and match colors as needed without having to worry too much about which color is "right" for a particular affiliate. All of these colors work well together.
 
-### Primary Color
+| Swatch | Hex | Print (CMYK) | Screen (RGB) | Pantone | Notes |
+|--------|-----|--------------|--------------|---------|-------|
+| (image: color_0000_red.png alt: Red) | #B32233 | **R:** 179, **G:** 34, **B:** 51 | **C:** 21%, **M:** 99%, **Y:** 84%, **K:** 11% | 187C | SK&A primary color |
+| (image: color_0001_orange.png alt: Orange) | #F15822 | **R:** 241, **G:** 88, **B:** 34 | **C:** 0%, **M:** 80%, **Y:** 98%, **K:** 0% | 1655C | SK&A accent color |
+| (image: color_0002_brown.png alt: Brown) | #6B6864 | **R:** 108, **G:** 104, **B:** 100 | **C:** 56%, **M:** 51%, **Y:** 53%, **K:** 20% | 417C | |
+| (image: color_0003_light-brown.png alt: Light Brown) | #B7B6B2 | **R:** 183, **G:** 182, **B:** 178 | **C:** 29%, **M:** 23%, **Y:** 26%, **K:** 0% | 421C | |
+| (image: color_0004_beige.png alt: Beige) | #C7C4BB | **R:** 200, **G:** 196, **B:** 187 | **C:** 22%, **M:** 18%, **Y:** 24%, **K:** 0% | 413C | |
+| (image: color_0005_very-light-blue.png alt: Very Light Blue) | #CCCFD6 | **R:** 204, **G:** 207, **B:** 215 | **C:** 19%, **M:** 14%, **Y:** 9%, **K:** 0% | 5315C | |
+| (image: color_0006_light-blue.png alt: Light Blue) | #99AEBF | **R:** 154, **G:** 174, **B:** 191 | **C:** 41%, **M:** 24%, **Y:** 17%, **K:** 0% | 536C | |
+| (image: color_0007_dark-blue.png alt: Dark Blue) | #0F1F2D | **R:** 15, **G:** 30, **B:** 45 | **C:** 89%, **M:** 75%, **Y:** 54%, **K:** 67% | 536C | |
+| (image: color_0008_green.png alt: Green) | #D7E286 | **R:** 215, **G:** 226, **B:** 134 | **C:** 18%, **M:** 1%, **Y:** 60%, **K:** 0% | 586C | ETI accent color |
+| (image: color_0009_blue.png alt: Blue) | #204674 | **R:** 30, **G:** 70, **B:** 115 | **C:** 97%, **M:** 77%, **Y:** 30%, **K:** 15% | 534C | ETI primary color |
 
-<div style="background: #2bb5ee; width: 30px; height: 30px; margin-bottom: 20px"></div>
-
-	Hex = #2bb5ee
-	RGB = rgb(43,181,238)
-
-### Secondary Color
-
-<div style="background: #ee2bcc; width: 30px; height: 30px; margin-bottom: 20px"></div>
-
-	Hex = #ee2bcc
-	RGB = rgb(238,43,204)
-
-
-## Print
-
-<div style="background: #2bb5ee; width: 30px; height: 30px; margin-bottom: 20px"></div>
-
-### Primary Color
-
-	C = 60
-	M = 10
-	Y = 0
-	K = 0
-
-### Secondary Color
-
-<div style="background: #ee2bcc; width: 30px; height: 30px; margin-bottom: 20px"></div>
-
-	C = 20
-	M = 84
-	Y = 0
-	K = 0
+(file: SK&A_colors.ase text: Download: Adobe Swatch Exchange/ASE class: button)

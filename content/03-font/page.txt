@@ -1,0 +1,98 @@
+Title: Type Treatments
+----
+Text: 
+
+Type treatments for both SK&A and ETI brands use a contemporary, humanist sans-serif called Gibson, along with an (optional) headline font called Century Modern.
+
+For main headlines, either Gibson or Century Mondern can be used, depending on context. Gibson (being sans-serif) is perhaps more readable in very small applications, and may also feel slightly more casual than Century in some contexts.
+
+**Note:** all "em" font sizes given below use a base font size of 16px.
+
+***
+
+# Main headline example
+
+**font:** Century Modern Roman
+
+**print:**
+- 48pt / 48pt
+- kerning: -25
+
+**screen:**
+````html
+font-family: 3em/1 "Century-Modern", "Georgia", "Palatino", Times, serif;[
+letter-spacing: -0.0375em;
+color: #0F1F2D;
+````
+
+***
+
+<h1 class="alt">Main headline example (alternate)</h1>
+
+**font:** Gibson Regular
+
+**print:**
+- 48pt / 48pt
+- kerning: -5
+
+**screen:**
+````html
+font-family: 3em/1 "Gibson", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+letter-spacing: 0;
+color: #0F1F2D;
+````
+
+***
+
+## Secondary headline example
+
+**font:** Century Modern
+
+**print:**
+- 36pt / 36pt
+- kerning: -25
+
+**screen:**
+````html
+font-family: 3.75em/1 "Century-Modern", "Georgia", "Palatino", Times, serif;
+letter-spacing: -0.0375em;
+color: #B32233;
+````
+
+***
+
+### Subheader example
+
+**font:** Gibson Semibold
+
+**print:**
+- 24pt / 24pt
+- kerning: 0
+
+**screen:**
+````html
+font-family: 1.5em/1 "Gibson-Semibold", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+letter-spacing: 0;
+color: #99AEBF;
+````
+
+***
+
+#### Text sample
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.
+
+#### Body font
+
+**font:** Gibson Regular
+
+**print:**
+- 14pt / 24pt
+- kerning: 0
+
+**screen:**
+````html
+font-family: 1em/1.5 "Gibson", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+letter-spacing: 0.0625em;
+color: #4d4d4d;
+````

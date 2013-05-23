@@ -1,45 +1,29 @@
-<footer>
-	<p>&copy; Copyright 2013 The SK&amp;A Group</p>
-</footer>
-
 </div><!-- /#wrapper -->
 <script>
-document.write('<script src=' +
-('__proto__' in {} ? 'javascripts/vendor/zepto' : 'javascripts/vendor/jquery') +
-'.js><\/script>')
+// document.write('<script src=' +
+// ('__proto__' in {} ? 'assets/javascripts/vendor/zepto' : 'javascripts/vendor/jquery') +
+// '.js><\/script>')
 </script>
 
-<script src="javascripts/foundation/foundation.js"></script>
-
-<script src="javascripts/foundation/foundation.alerts.js"></script>
-
-<script src="javascripts/foundation/foundation.clearing.js"></script>
-
-<script src="javascripts/foundation/foundation.cookie.js"></script>
-
-<script src="javascripts/foundation/foundation.dropdown.js"></script>
-
-<script src="javascripts/foundation/foundation.forms.js"></script>
-
-<script src="javascripts/foundation/foundation.joyride.js"></script>
-
-<script src="javascripts/foundation/foundation.magellan.js"></script>
-
-<script src="javascripts/foundation/foundation.orbit.js"></script>
-
-<script src="javascripts/foundation/foundation.placeholder.js"></script>
-
-<script src="javascripts/foundation/foundation.reveal.js"></script>
-
-<script src="javascripts/foundation/foundation.section.js"></script>
-
-<script src="javascripts/foundation/foundation.tooltips.js"></script>
-
-<script src="javascripts/foundation/foundation.topbar.js"></script>
+<?php echo js("assets/javascripts/vendor/zepto.js") ?>
+<?php echo js("assets/javascripts/foundation/foundation.js") ?>
+<?php echo js("assets/javascripts/foundation/foundation.alerts.js") ?>
+<?php echo js("assets/javascripts/foundation/foundation.clearing.js") ?>
+<?php echo js("assets/javascripts/foundation/foundation.cookie.js") ?>
+<?php echo js("assets/javascripts/foundation/foundation.dropdown.js") ?>
+<?php echo js("assets/javascripts/foundation/foundation.forms.js") ?>
+<?php echo js("assets/javascripts/foundation/foundation.joyride.js") ?>
+<?php echo js("assets/javascripts/foundation/foundation.magellan.js") ?>
+<?php echo js("assets/javascripts/foundation/foundation.orbit.js") ?>
+<?php echo js("assets/javascripts/foundation/foundation.placeholder.js") ?>
+<?php echo js("assets/javascripts/foundation/foundation.reveal.js") ?>
+<?php echo js("assets/javascripts/foundation/foundation.section.js") ?>
+<?php echo js("assets/javascripts/foundation/foundation.tooltips.js") ?>
+<?php echo js("assets/javascripts/foundation/foundation.topbar.js") ?>
 
 
 <script>
-$(document).foundation();
+	$(document).foundation();
 </script>
 
 </body>

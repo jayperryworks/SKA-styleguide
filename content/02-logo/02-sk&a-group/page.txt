@@ -1,0 +1,51 @@
+Title: The SK&A Group
+----
+Text:
+
+This is the logotype for the SK&A Group. Use this whenever you refer to the company as a whole, apart from its affiliates or subsidiaries.
+
+### Positive (for light backgrounds)
+
+(image: group-pos.png alt: The SK&A Group class: logo)
+
+<a href="#" data-dropdown="group-pos" class="button dropdown">Download: EPS</a>
+
+<ul id="group-pos" class="f-dropdown">
+	<li>(file: SK&AGroupNoTag_cmyk_positive.eps text: Print - CMYK)</li>
+	<li>(file: SK&AGroupNoTag_rgb_positive.eps text: Screen - RGB)</li>
+	<li>(file: SK&AGroupNoTag_grayscale_positive.eps text: Black & White)</li>
+</ul>
+
+(image: group-aff-pos.png alt: The SK&A Group class: logo)
+
+<a href="#" data-dropdown="group-aff-pos" class="button dropdown">Download: EPS</a>
+
+<ul id="group-aff-pos" class="f-dropdown">
+	<li>(file: GroupAff_cmyk_positive.eps text: Print - CMYK)</li>
+	<li>(file: GroupAff_rgb_positive.eps text: Screen - RGB)</li>
+	<li>(file: GroupAff_grayscale_positive.eps text: Black & White)</li>
+</ul>
+
+***
+
+### Reverse (for dark backgrounds)
+
+(image: group-rev.png alt: The SK&A Group class: logo)
+
+<a href="#" data-dropdown="group-rev" class="button dropdown">Download: EPS</a>
+
+<ul id="group-rev" class="f-dropdown">
+	<li>(file: SK&AGroupNoTag_cmyk_reverse.eps text: Print - CMYK)</li>
+	<li>(file: SK&AGroupNoTag_rgb_reverse.eps text: Screen - RGB)</li>
+	<li>(file: SK&AGroupNoTag_grayscale_reverse.eps text: Black & White)</li>
+</ul>
+
+(image: group-aff-rev.png alt: The SK&A Group class: logo)
+
+<a href="#" data-dropdown="group-aff-rev" class="button dropdown">Download: EPS</a>
+
+<ul id="group-aff-rev" class="f-dropdown">
+	<li>(file: GroupAff_cmyk_reverse.eps text: Print - CMYK)</li>
+	<li>(file: GroupAff_rgb_reverse.eps text: Screen - RGB)</li>
+	<li>(file: GroupAff_grayscale_reverse.eps text: Black & White)</li>
+</ul>

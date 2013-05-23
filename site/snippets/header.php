@@ -28,5 +28,5 @@
     <?php snippet('menu') ?>
     
     <!-- JPW signoff -->
-    <a href="http://jayperryworks.com" class="madewith">Jay Perry Works</a>
+    <!-- <a href="http://jayperryworks.com" class="madewith">Jay Perry Works</a> -->
   </header>

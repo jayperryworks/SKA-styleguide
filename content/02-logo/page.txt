@@ -1,0 +1,45 @@
+Title: Logos
+----
+Text: The SK&A and ETI logos function in a system: a few basic conventions apply to dozens of available variations. The basic logotypes (the "SK&A" and "ETI" names themselves) are the foundation and always appear in the same colors and lockup.
+
+### Positive (for light backgrounds)
+
+(image: sk&a-pos.png)
+
+<a href="#" data-dropdown="ska-pos" class="button dropdown">Download</a>
+
+<ul id="ska-pos" class="f-dropdown">
+	<li>(file: SK&A_cmyk_positive.eps text: Print - CMYK)</li>
+	<li>(file: SK&A_rgb_positive.eps text: Screen - RGB)</li>
+	<li>(file: SK&A_grayscale_positive.eps text: Black & White)</li>
+</ul>
+
+(image: eti-pos.png alt: ETI)
+
+<a href="#" data-dropdown="eti-pos" class="button dropdown">Download</a>
+
+<ul id="eti-pos" class="f-dropdown">
+	<li>(file: ETI_cmyk_positive.eps text: Print - CMYK)</li>
+	<li>(file: ETI_rgb_positive.eps text: Screen - RGB)</li>
+	<li>(file: ETI_grayscale_positive.eps text: Black & White)</li>
+</ul>
+
+***
+
+### Reverse (for dark backgrounds)
+
+(image: sk&a-rev.png)
+
+<a href="#" data-dropdown="eti-rev" class="button dropdown">Download</a>
+
+<ul id="eti-rev" class="f-dropdown">
+	<li>(file: ETI_grayscale_rev.eps text: Reverse)</li>
+</ul>
+
+(image: eti-rev.png alt: ETI)
+
+<a href="#" data-dropdown="eti-rev" class="button dropdown">Download</a>
+
+<ul id="eti-rev" class="f-dropdown">
+	<li>(file: ETI_grayscale_rev.eps text: Reverse)</li>
+</ul>

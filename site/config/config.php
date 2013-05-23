@@ -143,7 +143,7 @@ set this to false
 */
 
 c::set('markdown.break', true);
-
+c::set('markdown.extra', true);
 
 /*
 

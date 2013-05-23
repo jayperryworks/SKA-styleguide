@@ -1,0 +1,19 @@
+Title: Graphics
+----
+Text:
+
+The SK&A & ETI brands use accent graphics: layered triangles using variations of the brand colors. Usually the accent graphics are displayed in the background of the composition, off to the side or cropped at the corner of the frame (or page). These can also be used to highlight certain elements, such as a menu bar on a website.
+
+### SK&A
+
+(image: sk&a-graphic.gif alt: SK&A accent graphics)
+
+(file: sk&a-graphic.eps text: Download: EPS class: button)
+
+***
+
+### ETI
+
+(image: eti-graphic.gif alt: ETI accent graphics)
+
+(file: eti-graphic.eps text: Download: EPS class: button)

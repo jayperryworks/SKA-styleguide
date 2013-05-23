@@ -1,0 +1,91 @@
+Title: Specialty Tags
+----
+Text:
+
+In some cases, a particular specialty, capability, or quality of The SK&A Group can be highlighted with a "tag" such as "Repair & Restoration" or "Design."
+
+### Positive (for light backgrounds)
+
+(image: design-pos.png alt: SK&A Design class: logo)
+
+<a href="#" data-dropdown="design-pos" class="button dropdown">Download: EPS</a>
+
+<ul id="design-pos" class="f-dropdown">
+	<li>(file: SK&ADesign_cmyk_positive.eps text: Print - CMYK)</li>
+	<li>(file: SK&ADesign_rgb_positive.eps text: Screen - RGB)</li>
+	<li>(file: SK&ADesign_grayscale_positive.eps text: Black & White)</li>
+</ul>
+
+(image: rr-pos.png alt: SK&A Repair & Restoration class: logo)
+
+<a href="#" data-dropdown="rr-pos" class="button dropdown">Download: EPS</a>
+
+<ul id="rr-pos" class="f-dropdown">
+	<li>(file: SK&ARR_cmyk_positive.eps text: Print - CMYK)</li>
+	<li>(file: SK&ARR_rgb_positive.eps text: Screen - RGB)</li>
+	<li>(file: SK&ARR_grayscale_positive.eps text: Black & White)</li>
+</ul>
+
+(image: sustain-pos.png alt: SK&A Sustainability class: logo)
+
+<a href="#" data-dropdown="sustain-pos" class="button dropdown">Download: EPS</a>
+
+<ul id="sustain-pos" class="f-dropdown">
+	<li>(file: SK&ASustain_cmyk_positive.eps text: Print - CMYK)</li>
+	<li>(file: SK&ASustain_rgb_positive.eps text: Screen - RGB)</li>
+	<li>(file: SK&ASustain_grayscale_positive.eps text: Black & White)</li>
+</ul>
+
+(image: diversity-pos.png alt: SK&A Diversity class: logo)
+
+<a href="#" data-dropdown="diversity-pos" class="button dropdown">Download: EPS</a>
+
+<ul id="diversity-pos" class="f-dropdown">
+	<li>(file: SK&ADiversity_cmyk_positive.eps text: Print - CMYK)</li>
+	<li>(file: SK&ADiversity_rgb_positive.eps text: Screen - RGB)</li>
+	<li>(file: SK&ADiversity_grayscale_positive.eps text: Black & White)</li>
+</ul>
+
+***
+
+### Reverse (for dark backgrounds)
+
+(image: design-rev.png alt: SK&A Design class: logo)
+
+<a href="#" data-dropdown="design-rev" class="button dropdown">Download: EPS</a>
+
+<ul id="design-rev" class="f-dropdown">
+	<li>(file: SK&ADesign_cmyk_reverse.eps text: Print - CMYK)</li>
+	<li>(file: SK&ADesign_rgb_reverse.eps text: Screen - RGB)</li>
+	<li>(file: SK&ADesign_grayscale_reverse.eps text: Black & White)</li>
+</ul>
+
+(image: rr-rev.png alt: SK&A Repair & Restoration class: logo)
+
+<a href="#" data-dropdown="rr-rev" class="button dropdown">Download: EPS</a>
+
+<ul id="rr-rev" class="f-dropdown">
+	<li>(file: SK&ARR_cmyk_reverse.eps text: Print - CMYK)</li>
+	<li>(file: SK&ARR_rgb_reverse.eps text: Screen - RGB)</li>
+	<li>(file: SK&ARR_grayscale_reverse.eps text: Black & White)</li>
+</ul>
+
+(image: sustain-rev.png alt: SK&A Sustainability class: logo)
+
+<a href="#" data-dropdown="sustain-rev" class="button dropdown">Download: EPS</a>
+
+<ul id="sustain-rev" class="f-dropdown">
+	<li>(file: SK&ASustain_cmyk_reverse.eps text: Print - CMYK)</li>
+	<li>(file: SK&ASustain_rgb_reverse.eps text: Screen - RGB)</li>
+	<li>(file: SK&ASustain_grayscale_reverse.eps text: Black & White)</li>
+</ul>
+
+(image: diversity-rev.png alt: SK&A Diversity class: logo)
+
+<a href="#" data-dropdown="diversity-rev" class="button dropdown">Download: EPS</a>
+
+<ul id="diversity-rev" class="f-dropdown">
+	<li>(file: SK&ADiversity_cmyk_reverse.eps text: Print - CMYK)</li>
+	<li>(file: SK&ADiversity_rgb_reverse.eps text: Screen - RGB)</li>
+	<li>(file: SK&ADiversity_grayscale_reverse.eps text: Black & White)</li>
+</ul>
