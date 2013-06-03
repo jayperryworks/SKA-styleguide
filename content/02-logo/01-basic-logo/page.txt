@@ -1,0 +1,49 @@
+Title: Basic Logos
+----
+Text:
+
+The basic logotypes (the "SK&A" and "ETI" names themselves) are the foundation of the SK&A branding system; all the variations simply add elements to the logotype to create a particular lockup for a particular context.
+
+The logotypes below can be used to refer to the companies in general, when a modifier (e.g. "SK&A DC" or "SK&A Design" or "SK&A Structural Engineers") may not be needed. These may also be used where the logo is displayed at a very small size, such as a social media badge. However, when in doubt, it's recommended that you use the most descriptive lockup that you can. For instance, if you're referring to the whole group and have the space for it, use the "SK&A Group" lockup instead of just "SK&A."
+
+### Positive (for light backgrounds)
+
+(image: sk&a-pos.png)
+
+<a href="#" data-dropdown="ska-pos" class="button dropdown">Download: EPS</a>
+
+<ul id="ska-pos" class="f-dropdown">
+	<li>(file: SK&A_cmyk_positive.eps text: Print - CMYK)</li>
+	<li>(file: SK&A_rgb_positive.eps text: Screen - RGB)</li>
+	<li>(file: SK&A_grayscale_positive.eps text: Black & White)</li>
+</ul>
+
+(image: eti-pos.png alt: ETI)
+
+<a href="#" data-dropdown="eti-pos" class="button dropdown">Download: EPS</a>
+
+<ul id="eti-pos" class="f-dropdown">
+	<li>(file: ETI_cmyk_positive.eps text: Print - CMYK)</li>
+	<li>(file: ETI_rgb_positive.eps text: Screen - RGB)</li>
+	<li>(file: ETI_grayscale_positive.eps text: Black & White)</li>
+</ul>
+
+***
+
+### Reverse (for dark backgrounds)
+
+(image: sk&a-rev.png)
+
+<a href="#" data-dropdown="eti-rev" class="button dropdown">Download: EPS</a>
+
+<ul id="eti-rev" class="f-dropdown">
+	<li>(file: ETI_grayscale_rev.eps text: Reverse)</li>
+</ul>
+
+(image: eti-rev.png alt: ETI)
+
+<a href="#" data-dropdown="eti-rev" class="button dropdown">Download: EPS</a>
+
+<ul id="eti-rev" class="f-dropdown">
+	<li>(file: ETI_grayscale_rev.eps text: Reverse)</li>
+</ul>

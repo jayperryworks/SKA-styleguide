@@ -1,9 +1,9 @@
-Title: Kirby Demo
+Title: The SK&A Group
 ----
-Author: Bastian Allgeier
+Author: Jay Perry Works
 ----
-Description: Kirby is awesome
+Description: A style library for The SK&A Group
 ----
-Keywords: kirby, cms, kirbycms, php, filesystem
+Keywords: 
 ----
-Copyright: © 2009-(date: Year) (link: http://bastianallgeier.com text: Bastian Allgeier)
+Copyright: ©(date: Year) The SK&A Group. All rights reserved.

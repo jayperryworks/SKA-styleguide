@@ -1,45 +1,32 @@
 Title: Logos
 ----
-Text: The SK&A and ETI logos function in a system: a few basic conventions apply to dozens of available variations. The basic logotypes (the "SK&A" and "ETI" names themselves) are the foundation and always appear in the same colors and lockup.
+Text: The SK&A and ETI logos function in a system: a few basic conventions apply to dozens of available variations. Prebuilt lockups and logo variations for almost every use case can be downloaded from this site; if you need a particular logo, always check for it in this styleguide before you attempt to build your own lockup. The lockups on this website have been carefully constructed to account for spacing, proportions, weight, color, leading and kerning, and have been adjusted for consistent appearance in a variety of contexts. In general, it's not recommended that you attempt to make your own logo variation except in very special cases, because the company's mark and indentity should always be presented in a consistent way.
 
-### Positive (for light backgrounds)
+The SK&A logo is set in the classic Optima typeface but uses a customized ampersand (&) character. The ETI logo is set in Rockwell. "Complimentary" text (such as "DC" in the "SK&A DC" version, or "Design" in "S&A Design") is set in Gibson using varying weights and sizes. The typeface choices made in the logos are reflected in the overall font and type treatment guidelines for the brand; you can find more information about this in the "Type Treatments" section of this guide.
 
-(image: sk&a-pos.png)
+### Usage
 
-<a href="#" data-dropdown="ska-pos" class="button dropdown">Download</a>
+When placing a logo in a document or interface, please observe a few simple guidelines.
 
-<ul id="ska-pos" class="f-dropdown">
-	<li>(file: SK&A_cmyk_positive.eps text: Print - CMYK)</li>
-	<li>(file: SK&A_rgb_positive.eps text: Screen - RGB)</li>
-	<li>(file: SK&A_grayscale_positive.eps text: Black & White)</li>
-</ul>
+#### Spacing
 
-(image: eti-pos.png alt: ETI)
+The logo needs a little breathing room. Please leave a margin on all sides approximately equivalent to the size of the "K" in SK&A and the "T" in ETI. Use this margin not only with the basic logo (illustrated below) but also with the various lockups.
 
-<a href="#" data-dropdown="eti-pos" class="button dropdown">Download</a>
+(image: yes-spacing.png alt: SK&A margins class: grid)
+(image: yes-spacing-eti.png alt: ETI margins class: grid)
 
-<ul id="eti-pos" class="f-dropdown">
-	<li>(file: ETI_cmyk_positive.eps text: Print - CMYK)</li>
-	<li>(file: ETI_rgb_positive.eps text: Screen - RGB)</li>
-	<li>(file: ETI_grayscale_positive.eps text: Black & White)</li>
-</ul>
+#### Best Practices
 
-***
+ As mentioned above, the logo files in this styleguide are meant to be used as-is. The cases where you might need to modify a logo file are likely to be extremely rare (and it is recommended you consult a designer if you need to do so).
 
-### Reverse (for dark backgrounds)
+ **Please do not...**
 
-(image: sk&a-rev.png)
+ (image: no-color.png alt: Do not modify the color)
+ ...modify the colors in a logo file (especially with an off-brand color).
 
-<a href="#" data-dropdown="eti-rev" class="button dropdown">Download</a>
+ (image: no-gradient.png alt: Do not add pattern or texture)
+ ...add patterns, textures or color blends.
 
-<ul id="eti-rev" class="f-dropdown">
-	<li>(file: ETI_grayscale_rev.eps text: Reverse)</li>
-</ul>
-
-(image: eti-rev.png alt: ETI)
-
-<a href="#" data-dropdown="eti-rev" class="button dropdown">Download</a>
-
-<ul id="eti-rev" class="f-dropdown">
-	<li>(file: ETI_grayscale_rev.eps text: Reverse)</li>
-</ul>
+ (image: no-stretch.png alt: Do not distort the logo's shape)
+ (image: no-compress.png alt: Do not distort the logo's shape)
+ ...distort the logo's original shape or proportions.
