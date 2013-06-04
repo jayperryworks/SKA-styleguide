@@ -10,7 +10,11 @@ The logotypes below can be used to refer to the companies in general, when a mod
 
 (image: sk&a-pos.png)
 
-<a href="#" data-dropdown="ska-pos" class="button dropdown">Download: EPS</a>
+<ul class="button-group">
+	<li><a href="#" data-dropdown="ska-pos" class="button dropdown">Download: EPS</a></li>
+	<li><a href="#" data-dropdown="ska-pos-pdf" class="button dropdown">Download: PDF</a></li>
+	<li><a href="#" data-dropdown="ska-pos-png" class="button dropdown">Download: PNG</a></li>
+</ul>
 
 <ul id="ska-pos" class="f-dropdown">
 	<li>(file: SK&A_cmyk_positive.eps text: Print - CMYK)</li>
@@ -18,14 +22,41 @@ The logotypes below can be used to refer to the companies in general, when a mod
 	<li>(file: SK&A_grayscale_positive.eps text: Black & White)</li>
 </ul>
 
+<ul id="ska-pos-pdf" class="f-dropdown">
+	<li>(file: SK&A_cmyk_positive.pdf text: Print - CMYK)</li>
+	<li>(file: SK&A_rgb_positive.pdf text: Screen - RGB)</li>
+	<li>(file: SK&A_grayscale_positive.pdf text: Black & White)</li>
+</ul>
+
+<ul id="ska-pos-png" class="f-dropdown">
+	<li>(file: SK&A_rgb_positive.png text: Screen - RGB)</li>
+	<li>(file: SK&A_grayscale_positive.png text: Black & White)</li>
+</ul>
+
 (image: eti-pos.png alt: ETI)
 
-<a href="#" data-dropdown="eti-pos" class="button dropdown">Download: EPS</a>
+<ul class="button-group">
+	<li><a href="#" data-dropdown="eti-pos" class="button dropdown">Download: EPS</a></li>
+	<li><a href="#" data-dropdown="eti-pos-pdf" class="button dropdown">Download: PDF</a></li>
+	<li><a href="#" data-dropdown="eti-pos-png" class="button dropdown">Download: PNG</a></li>
+</ul>
 
 <ul id="eti-pos" class="f-dropdown">
 	<li>(file: ETI_cmyk_positive.eps text: Print - CMYK)</li>
 	<li>(file: ETI_rgb_positive.eps text: Screen - RGB)</li>
 	<li>(file: ETI_grayscale_positive.eps text: Black & White)</li>
+</ul>
+
+<ul id="eti-pos-pdf" class="f-dropdown">
+	<li>(file: ETI_cmyk_positive.pdf text: Print - CMYK)</li>
+	<li>(file: ETI_rgb_positive.pdf text: Screen - RGB)</li>
+	<li>(file: ETI_grayscale_positive.pdf text: Black & White)</li>
+</ul>
+
+<ul id="eti-pos-png" class="f-dropdown">
+	<li>(file: ETI_cmyk_positive.png text: Print - CMYK)</li>
+	<li>(file: ETI_rgb_positive.png text: Screen - RGB)</li>
+	<li>(file: ETI_grayscale_positive.png text: Black & White)</li>
 </ul>
 
 ***
@@ -34,16 +65,40 @@ The logotypes below can be used to refer to the companies in general, when a mod
 
 (image: sk&a-rev.png)
 
-<a href="#" data-dropdown="eti-rev" class="button dropdown">Download: EPS</a>
+<ul class="button-group">
+	<li><a href="#" data-dropdown="eti-rev" class="button dropdown">Download: EPS</a></li>
+	<li><a href="#" data-dropdown="eti-rev-pdf" class="button dropdown">Download: PDF</a></li>
+	<li><a href="#" data-dropdown="eti-rev-png" class="button dropdown">Download: PNG</a></li>
+</ul>
 
 <ul id="eti-rev" class="f-dropdown">
-	<li>(file: ETI_grayscale_rev.eps text: Reverse)</li>
+	<li>(file: SK&A_grayscale_reverse.eps text: Reverse)</li>
+</ul>
+
+<ul id="eti-rev-pdf" class="f-dropdown">
+	<li>(file: SK&A_grayscale_reverse.pdf text: Reverse)</li>
+</ul>
+
+<ul id="eti-rev-png" class="f-dropdown">
+	<li>(file: SK&A_grayscale_reverse.png text: Reverse)</li>
 </ul>
 
 (image: eti-rev.png alt: ETI)
 
-<a href="#" data-dropdown="eti-rev" class="button dropdown">Download: EPS</a>
+<ul class="button-group">
+	<li><a href="#" data-dropdown="eti-rev" class="button dropdown">Download: EPS</a></li>
+	<li><a href="#" data-dropdown="eti-rev-pdf" class="button dropdown">Download: PDF</a></li>
+	<li><a href="#" data-dropdown="eti-rev-png" class="button dropdown">Download: PNG</a></li>
+</ul>
 
 <ul id="eti-rev" class="f-dropdown">
-	<li>(file: ETI_grayscale_rev.eps text: Reverse)</li>
+	<li>(file: ETI_grayscale_reverse.eps text: Reverse)</li>
+</ul>
+
+<ul id="eti-rev-pdf" class="f-dropdown">
+	<li>(file: ETI_grayscale_reverse.pdf text: Reverse)</li>
+</ul>
+
+<ul id="eti-rev-png" class="f-dropdown">
+	<li>(file: ETI_grayscale_reverse.png text: Reverse)</li>
 </ul>
