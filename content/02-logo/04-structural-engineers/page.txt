@@ -8,7 +8,11 @@ This lockup adds the "Structural Engineers" tagline to the regular logotype.
 
 (image: sk&a-pos.png alt: SK&A Structural Engineers class: logo)
 
-<a href="#" data-dropdown="ska-pos" class="button dropdown">Download: EPS</a>
+<ul class="button-group">
+	<li><a href="#" data-dropdown="ska-pos" class="button dropdown">Download: EPS</a></li>
+	<li><a href="#" data-dropdown="ska-pos-pdf" class="button dropdown">Download: PDF</a></li>
+	<li><a href="#" data-dropdown="ska-pos-png" class="button dropdown">Download: PNG</a></li>
+</ul>
 
 <ul id="ska-pos" class="f-dropdown">
 	<li>(file: SK&ASE_cmyk_positive.eps text: Print - CMYK)</li>
@@ -16,14 +20,42 @@ This lockup adds the "Structural Engineers" tagline to the regular logotype.
 	<li>(file: SK&ASE_grayscale_positive.eps text: Black & White)</li>
 </ul>
 
+<ul id="ska-pos-pdf" class="f-dropdown">
+	<li>(file: SK&ASE_cmyk_positive.pdf text: Print - CMYK)</li>
+	<li>(file: SK&ASE_rgb_positive.pdf text: Screen - RGB)</li>
+	<li>(file: SK&ASE_grayscale_positive.pdf text: Black & White)</li>
+</ul>
+
+<ul id="ska-pos-png" class="f-dropdown">
+	<li>(file: SK&ASE_cmyk_positive.png text: Print - CMYK)</li>
+	<li>(file: SK&ASE_rgb_positive.png text: Screen - RGB)</li>
+	<li>(file: SK&ASE_grayscale_positive.png text: Black & White)</li>
+</ul>
+
 (image: group-pos.png alt: The SK&A Group Structural Engineers class: logo)
 
-<a href="#" data-dropdown="group-pos" class="button dropdown">Download: EPS</a>
+<ul class="button-group">
+	<li><a href="#" data-dropdown="group-pos" class="button dropdown">Download: EPS</a></li>
+	<li><a href="#" data-dropdown="group-pos-pdf" class="button dropdown">Download: PDF</a></li>
+	<li><a href="#" data-dropdown="group-pos-png" class="button dropdown">Download: PNG</a></li>
+</ul>
 
 <ul id="group-pos" class="f-dropdown">
 	<li>(file: SK&AGroup_cmyk_positive.eps text: Print - CMYK)</li>
 	<li>(file: SK&AGroup_rgb_positive.eps text: Screen - RGB)</li>
 	<li>(file: SK&AGroup_grayscale_positive.eps text: Black & White)</li>
+</ul>
+
+<ul id="group-pos-pdf" class="f-dropdown">
+	<li>(file: SK&AGroup_cmyk_positive.pdf text: Print - CMYK)</li>
+	<li>(file: SK&AGroup_rgb_positive.pdf text: Screen - RGB)</li>
+	<li>(file: SK&AGroup_grayscale_positive.pdf text: Black & White)</li>
+</ul>
+
+<ul id="group-pos-png" class="f-dropdown">
+	<li>(file: SK&AGroup_cmyk_positive.png text: Print - CMYK)</li>
+	<li>(file: SK&AGroup_rgb_positive.png text: Screen - RGB)</li>
+	<li>(file: SK&AGroup_grayscale_positive.png text: Black & White)</li>
 </ul>
 
 ***
@@ -32,7 +64,11 @@ This lockup adds the "Structural Engineers" tagline to the regular logotype.
 
 (image: sk&a-rev.png alt: SK&A Structural Engineers class: logo)
 
-<a href="#" data-dropdown="ska-rev" class="button dropdown">Download: EPS</a>
+<ul class="button-group">
+	<li><a href="#" data-dropdown="ska-rev" class="button dropdown">Download: EPS</a></li>
+	<li><a href="#" data-dropdown="ska-rev-pdf" class="button dropdown">Download: PDF</a></li>
+	<li><a href="#" data-dropdown="ska-rev-png" class="button dropdown">Download: PNG</a></li>
+</ul>
 
 <ul id="ska-rev" class="f-dropdown">
 	<li>(file: SK&ASE_cmyk_reverse.eps text: Print - CMYK)</li>
@@ -40,12 +76,40 @@ This lockup adds the "Structural Engineers" tagline to the regular logotype.
 	<li>(file: SK&ASE_grayscale_reverse.eps text: Black & White)</li>
 </ul>
 
+<ul id="ska-rev-pdf" class="f-dropdown">
+	<li>(file: SK&ASE_cmyk_reverse.pdf text: Print - CMYK)</li>
+	<li>(file: SK&ASE_rgb_reverse.pdf text: Screen - RGB)</li>
+	<li>(file: SK&ASE_grayscale_reverse.pdf text: Black & White)</li>
+</ul>
+
+<ul id="ska-rev-png" class="f-dropdown">
+	<li>(file: SK&ASE_cmyk_reverse.png text: Print - CMYK)</li>
+	<li>(file: SK&ASE_rgb_reverse.png text: Screen - RGB)</li>
+	<li>(file: SK&ASE_grayscale_reverse.png text: Black & White)</li>
+</ul>
+
 (image: group-rev.png alt: The SK&A Group Structural Engineers class: logo)
 
-<a href="#" data-dropdown="group-rev" class="button dropdown">Download: EPS</a>
+<ul class="button-group">
+	<li><a href="#" data-dropdown="group-rev" class="button dropdown">Download: EPS</a></li>
+	<li><a href="#" data-dropdown="group-rev-pdf" class="button dropdown">Download: PDF</a></li>
+	<li><a href="#" data-dropdown="group-rev-png" class="button dropdown">Download: PNG</a></li>
+</ul>
 
 <ul id="group-rev" class="f-dropdown">
 	<li>(file: SK&AGroup_cmyk_reverse.eps text: Print - CMYK)</li>
 	<li>(file: SK&AGroup_rgb_reverse.eps text: Screen - RGB)</li>
 	<li>(file: SK&AGroup_grayscale_reverse.eps text: Black & White)</li>
+</ul>
+
+<ul id="group-rev-pdf" class="f-dropdown">
+	<li>(file: SK&AGroup_cmyk_reverse.pdf text: Print - CMYK)</li>
+	<li>(file: SK&AGroup_rgb_reverse.pdf text: Screen - RGB)</li>
+	<li>(file: SK&AGroup_grayscale_reverse.pdf text: Black & White)</li>
+</ul>
+
+<ul id="group-rev-png" class="f-dropdown">
+	<li>(file: SK&AGroup_cmyk_reverse.png text: Print - CMYK)</li>
+	<li>(file: SK&AGroup_rgb_reverse.png text: Screen - RGB)</li>
+	<li>(file: SK&AGroup_grayscale_reverse.png text: Black & White)</li>
 </ul>

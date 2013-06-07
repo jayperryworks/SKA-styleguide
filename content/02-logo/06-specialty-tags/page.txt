@@ -8,7 +8,11 @@ In some cases, a particular specialty, capability, or quality of The SK&A Group 
 
 (image: design-pos.png alt: SK&A Design class: logo)
 
-<a href="#" data-dropdown="design-pos" class="button dropdown">Download: EPS</a>
+<ul class="button-group">
+	<li><a href="#" data-dropdown="design-pos" class="button dropdown">Download: EPS</a></li>
+	<li><a href="#" data-dropdown="design-pos-pdf" class="button dropdown">Download: PDF</a></li>
+	<li><a href="#" data-dropdown="design-pos-png" class="button dropdown">Download: PNG</a></li>
+</ul>
 
 <ul id="design-pos" class="f-dropdown">
 	<li>(file: SK&ADesign_cmyk_positive.eps text: Print - CMYK)</li>
@@ -16,9 +20,25 @@ In some cases, a particular specialty, capability, or quality of The SK&A Group 
 	<li>(file: SK&ADesign_grayscale_positive.eps text: Black & White)</li>
 </ul>
 
+<ul id="design-pos-pdf" class="f-dropdown">
+	<li>(file: SK&ADesign_cmyk_positive.pdf text: Print - CMYK)</li>
+	<li>(file: SK&ADesign_rgb_positive.pdf text: Screen - RGB)</li>
+	<li>(file: SK&ADesign_grayscale_positive.pdf text: Black & White)</li>
+</ul>
+
+<ul id="design-pos-png" class="f-dropdown">
+	<li>(file: SK&ADesign_cmyk_positive.png text: Print - CMYK)</li>
+	<li>(file: SK&ADesign_rgb_positive.png text: Screen - RGB)</li>
+	<li>(file: SK&ADesign_grayscale_positive.png text: Black & White)</li>
+</ul>
+
 (image: rr-pos.png alt: SK&A Repair & Restoration class: logo)
 
-<a href="#" data-dropdown="rr-pos" class="button dropdown">Download: EPS</a>
+<ul class="button-group">
+	<li><a href="#" data-dropdown="rr-pos" class="button dropdown">Download: EPS</a></li>
+	<li><a href="#" data-dropdown="rr-pos-pdf" class="button dropdown">Download: PDF</a></li>
+	<li><a href="#" data-dropdown="rr-pos-png" class="button dropdown">Download: PNG</a></li>
+</ul>
 
 <ul id="rr-pos" class="f-dropdown">
 	<li>(file: SK&ARR_cmyk_positive.eps text: Print - CMYK)</li>
@@ -26,9 +46,25 @@ In some cases, a particular specialty, capability, or quality of The SK&A Group 
 	<li>(file: SK&ARR_grayscale_positive.eps text: Black & White)</li>
 </ul>
 
+<ul id="rr-pos-pdf" class="f-dropdown">
+	<li>(file: SK&ARR_cmyk_positive.pdf text: Print - CMYK)</li>
+	<li>(file: SK&ARR_rgb_positive.pdf text: Screen - RGB)</li>
+	<li>(file: SK&ARR_grayscale_positive.pdf text: Black & White)</li>
+</ul>
+
+<ul id="rr-pos-png" class="f-dropdown">
+	<li>(file: SK&ARR_cmyk_positive.png text: Print - CMYK)</li>
+	<li>(file: SK&ARR_rgb_positive.png text: Screen - RGB)</li>
+	<li>(file: SK&ARR_grayscale_positive.png text: Black & White)</li>
+</ul>
+
 (image: sustain-pos.png alt: SK&A Sustainability class: logo)
 
-<a href="#" data-dropdown="sustain-pos" class="button dropdown">Download: EPS</a>
+<ul class="button-group">
+	<li><a href="#" data-dropdown="sustain-pos" class="button dropdown">Download: EPS</a></li>
+	<li><a href="#" data-dropdown="sustain-pos-pdf" class="button dropdown">Download: PDF</a></li>
+	<li><a href="#" data-dropdown="sustain-pos-png" class="button dropdown">Download: PNG</a></li>
+</ul>
 
 <ul id="sustain-pos" class="f-dropdown">
 	<li>(file: SK&ASustain_cmyk_positive.eps text: Print - CMYK)</li>
@@ -36,14 +72,42 @@ In some cases, a particular specialty, capability, or quality of The SK&A Group 
 	<li>(file: SK&ASustain_grayscale_positive.eps text: Black & White)</li>
 </ul>
 
+<ul id="sustain-pos-pdf" class="f-dropdown">
+	<li>(file: SK&ASustain_cmyk_positive.pdf text: Print - CMYK)</li>
+	<li>(file: SK&ASustain_rgb_positive.pdf text: Screen - RGB)</li>
+	<li>(file: SK&ASustain_grayscale_positive.pdf text: Black & White)</li>
+</ul>
+
+<ul id="sustain-pos-png" class="f-dropdown">
+	<li>(file: SK&ASustain_cmyk_positive.png text: Print - CMYK)</li>
+	<li>(file: SK&ASustain_rgb_positive.png text: Screen - RGB)</li>
+	<li>(file: SK&ASustain_grayscale_positive.png text: Black & White)</li>
+</ul>
+
 (image: diversity-pos.png alt: SK&A Diversity class: logo)
 
-<a href="#" data-dropdown="diversity-pos" class="button dropdown">Download: EPS</a>
+<ul class="button-group">
+	<li><a href="#" data-dropdown="diversity-pos" class="button dropdown">Download: EPS</a></li>
+	<li><a href="#" data-dropdown="diversity-pos-pdf" class="button dropdown">Download: PDF</a></li>
+	<li><a href="#" data-dropdown="diversity-pos-png" class="button dropdown">Download: PNG</a></li>
+</ul>
 
 <ul id="diversity-pos" class="f-dropdown">
 	<li>(file: SK&ADiversity_cmyk_positive.eps text: Print - CMYK)</li>
 	<li>(file: SK&ADiversity_rgb_positive.eps text: Screen - RGB)</li>
 	<li>(file: SK&ADiversity_grayscale_positive.eps text: Black & White)</li>
+</ul>
+
+<ul id="diversity-pos-pdf" class="f-dropdown">
+	<li>(file: SK&ADiversity_cmyk_positive.pdf text: Print - CMYK)</li>
+	<li>(file: SK&ADiversity_rgb_positive.pdf text: Screen - RGB)</li>
+	<li>(file: SK&ADiversity_grayscale_positive.pdf text: Black & White)</li>
+</ul>
+
+<ul id="diversity-pos-png" class="f-dropdown">
+	<li>(file: SK&ADiversity_cmyk_positive.png text: Print - CMYK)</li>
+	<li>(file: SK&ADiversity_rgb_positive.png text: Screen - RGB)</li>
+	<li>(file: SK&ADiversity_grayscale_positive.png text: Black & White)</li>
 </ul>
 
 ***
@@ -52,7 +116,11 @@ In some cases, a particular specialty, capability, or quality of The SK&A Group 
 
 (image: design-rev.png alt: SK&A Design class: logo)
 
-<a href="#" data-dropdown="design-rev" class="button dropdown">Download: EPS</a>
+<ul class="button-group">
+	<li><a href="#" data-dropdown="design-rev" class="button dropdown">Download: EPS</a></li>
+	<li><a href="#" data-dropdown="design-rev-pdf" class="button dropdown">Download: PDF</a></li>
+	<li><a href="#" data-dropdown="design-rev-png" class="button dropdown">Download: PNG</a></li>
+</ul>
 
 <ul id="design-rev" class="f-dropdown">
 	<li>(file: SK&ADesign_cmyk_reverse.eps text: Print - CMYK)</li>
@@ -60,9 +128,25 @@ In some cases, a particular specialty, capability, or quality of The SK&A Group 
 	<li>(file: SK&ADesign_grayscale_reverse.eps text: Black & White)</li>
 </ul>
 
+<ul id="design-rev-pdf" class="f-dropdown">
+	<li>(file: SK&ADesign_cmyk_reverse.pdf text: Print - CMYK)</li>
+	<li>(file: SK&ADesign_rgb_reverse.pdf text: Screen - RGB)</li>
+	<li>(file: SK&ADesign_grayscale_reverse.pdf text: Black & White)</li>
+</ul>
+
+<ul id="design-rev-png" class="f-dropdown">
+	<li>(file: SK&ADesign_cmyk_reverse.png text: Print - CMYK)</li>
+	<li>(file: SK&ADesign_rgb_reverse.png text: Screen - RGB)</li>
+	<li>(file: SK&ADesign_grayscale_reverse.png text: Black & White)</li>
+</ul>
+
 (image: rr-rev.png alt: SK&A Repair & Restoration class: logo)
 
-<a href="#" data-dropdown="rr-rev" class="button dropdown">Download: EPS</a>
+<ul class="button-group">
+	<li><a href="#" data-dropdown="rr-rev" class="button dropdown">Download: EPS</a></li>
+	<li><a href="#" data-dropdown="rr-rev-pdf" class="button dropdown">Download: PDF</a></li>
+	<li><a href="#" data-dropdown="rr-rev-png" class="button dropdown">Download: PNG</a></li>
+</ul>
 
 <ul id="rr-rev" class="f-dropdown">
 	<li>(file: SK&ARR_cmyk_reverse.eps text: Print - CMYK)</li>
@@ -70,9 +154,25 @@ In some cases, a particular specialty, capability, or quality of The SK&A Group 
 	<li>(file: SK&ARR_grayscale_reverse.eps text: Black & White)</li>
 </ul>
 
+<ul id="rr-rev-pdf" class="f-dropdown">
+	<li>(file: SK&ARR_cmyk_reverse.pdf text: Print - CMYK)</li>
+	<li>(file: SK&ARR_rgb_reverse.pdf text: Screen - RGB)</li>
+	<li>(file: SK&ARR_grayscale_reverse.pdf text: Black & White)</li>
+</ul>
+
+<ul id="rr-rev-png" class="f-dropdown">
+	<li>(file: SK&ARR_cmyk_reverse.png text: Print - CMYK)</li>
+	<li>(file: SK&ARR_rgb_reverse.png text: Screen - RGB)</li>
+	<li>(file: SK&ARR_grayscale_reverse.png text: Black & White)</li>
+</ul>
+
 (image: sustain-rev.png alt: SK&A Sustainability class: logo)
 
-<a href="#" data-dropdown="sustain-rev" class="button dropdown">Download: EPS</a>
+<ul class="button-group">
+	<li><a href="#" data-dropdown="sustain-rev" class="button dropdown">Download: EPS</a></li>
+	<li><a href="#" data-dropdown="sustain-rev-pdf" class="button dropdown">Download: PDF</a></li>
+	<li><a href="#" data-dropdown="sustain-rev-png" class="button dropdown">Download: PNG</a></li>
+</ul>
 
 <ul id="sustain-rev" class="f-dropdown">
 	<li>(file: SK&ASustain_cmyk_reverse.eps text: Print - CMYK)</li>
@@ -80,12 +180,40 @@ In some cases, a particular specialty, capability, or quality of The SK&A Group 
 	<li>(file: SK&ASustain_grayscale_reverse.eps text: Black & White)</li>
 </ul>
 
+<ul id="sustain-rev-pdf" class="f-dropdown">
+	<li>(file: SK&ASustain_cmyk_reverse.pdf text: Print - CMYK)</li>
+	<li>(file: SK&ASustain_rgb_reverse.pdf text: Screen - RGB)</li>
+	<li>(file: SK&ASustain_grayscale_reverse.pdf text: Black & White)</li>
+</ul>
+
+<ul id="sustain-rev-png" class="f-dropdown">
+	<li>(file: SK&ASustain_cmyk_reverse.png text: Print - CMYK)</li>
+	<li>(file: SK&ASustain_rgb_reverse.png text: Screen - RGB)</li>
+	<li>(file: SK&ASustain_grayscale_reverse.png text: Black & White)</li>
+</ul>
+
 (image: diversity-rev.png alt: SK&A Diversity class: logo)
 
-<a href="#" data-dropdown="diversity-rev" class="button dropdown">Download: EPS</a>
+<ul class="button-group">
+	<li><a href="#" data-dropdown="diversity-rev" class="button dropdown">Download: EPS</a></li>
+	<li><a href="#" data-dropdown="diversity-rev-pdf" class="button dropdown">Download: PDF</a></li>
+	<li><a href="#" data-dropdown="diversity-rev-png" class="button dropdown">Download: PNG</a></li>
+</ul>
 
 <ul id="diversity-rev" class="f-dropdown">
 	<li>(file: SK&ADiversity_cmyk_reverse.eps text: Print - CMYK)</li>
 	<li>(file: SK&ADiversity_rgb_reverse.eps text: Screen - RGB)</li>
 	<li>(file: SK&ADiversity_grayscale_reverse.eps text: Black & White)</li>
+</ul>
+
+<ul id="diversity-rev-pdf" class="f-dropdown">
+	<li>(file: SK&ADiversity_cmyk_reverse.pdf text: Print - CMYK)</li>
+	<li>(file: SK&ADiversity_rgb_reverse.pdf text: Screen - RGB)</li>
+	<li>(file: SK&ADiversity_grayscale_reverse.pdf text: Black & White)</li>
+</ul>
+
+<ul id="diversity-rev-png" class="f-dropdown">
+	<li>(file: SK&ADiversity_cmyk_reverse.png text: Print - CMYK)</li>
+	<li>(file: SK&ADiversity_rgb_reverse.png text: Screen - RGB)</li>
+	<li>(file: SK&ADiversity_grayscale_reverse.png text: Black & White)</li>
 </ul>

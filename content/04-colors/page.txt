@@ -2,7 +2,7 @@ Title: Colors
 ----
 Text: 
 
-The SK&A and ETI brands share a common color palette. This helps keep things simple, on the one hand, but also helps to keep the two brands consistent. SK&A and ETI each have their own "primary" color (red for SK&A and blue for ETI), but the rest of the palette contains neutrals and complimentary accent colors. You can easily mix and match colors as needed without having to worry too much about which color is "right" for a particular affiliate. All of these colors work well together.
+The SK&A and ETI brands share a common color palette. This helps keep things simple, on the one hand, but also helps to keep the two brands consistent. SK&A and ETI each have their own "primary" color (red for SK&A and blue for ETI), but the rest of the palette contains neutrals and complementary accent colors. You can easily mix and match colors as needed without having to worry too much about which color is "right" for a particular affiliate. All of these colors work well together.
 
 | Swatch | Hex | Print (CMYK) | Screen (RGB) | Pantone | Notes |
 |--------|-----|--------------|--------------|---------|-------|

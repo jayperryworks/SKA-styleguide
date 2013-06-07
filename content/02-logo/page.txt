@@ -2,7 +2,7 @@ Title: Logos
 ----
 Text: The SK&A and ETI logos function in a system: a few basic conventions apply to dozens of available variations. Prebuilt lockups and logo variations for almost every use case can be downloaded from this site; if you need a particular logo, always check for it in this styleguide before you attempt to build your own lockup. The lockups on this website have been carefully constructed to account for spacing, proportions, weight, color, leading and kerning, and have been adjusted for consistent appearance in a variety of contexts. In general, it's not recommended that you attempt to make your own logo variation except in very special cases, because the company's mark and indentity should always be presented in a consistent way.
 
-The SK&A logo is set in the classic Optima typeface but uses a customized ampersand (&) character. The ETI logo is set in Rockwell. "Complimentary" text (such as "DC" in the "SK&A DC" version, or "Design" in "S&A Design") is set in Gibson using varying weights and sizes. The typeface choices made in the logos are reflected in the overall font and type treatment guidelines for the brand; you can find more information about this in the "Type Treatments" section of this guide.
+The SK&A logo is set in the classic Optima typeface but uses a customized ampersand (&) character. The ETI logo is set in Rockwell. "Complementary" text (such as "DC" in the "SK&A DC" version, or "Design" in "SK&A Design") is set in Gibson using varying weights and sizes. The typeface choices made in the logos are reflected in the overall font and type treatment guidelines for the brand; you can find more information about this in the "Type Treatments" section of this guide.
 
 ### Usage
 

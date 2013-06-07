@@ -66,39 +66,15 @@ The logotypes below can be used to refer to the companies in general, when a mod
 (image: sk&a-rev.png)
 
 <ul class="button-group">
-	<li><a href="#" data-dropdown="eti-rev" class="button dropdown">Download: EPS</a></li>
-	<li><a href="#" data-dropdown="eti-rev-pdf" class="button dropdown">Download: PDF</a></li>
-	<li><a href="#" data-dropdown="eti-rev-png" class="button dropdown">Download: PNG</a></li>
-</ul>
-
-<ul id="eti-rev" class="f-dropdown">
-	<li>(file: SK&A_grayscale_reverse.eps text: Reverse)</li>
-</ul>
-
-<ul id="eti-rev-pdf" class="f-dropdown">
-	<li>(file: SK&A_grayscale_reverse.pdf text: Reverse)</li>
-</ul>
-
-<ul id="eti-rev-png" class="f-dropdown">
-	<li>(file: SK&A_grayscale_reverse.png text: Reverse)</li>
+	<li>(file: SK&A_grayscale_reverse.eps class: button text: Download: EPS)</li>
+	<li>(file: SK&A_grayscale_reverse.pdf class: button text: Download: PDF)</li>
+	<li>(file: SK&A_grayscale_reverse.png class: button text: Download: PNG)</li>
 </ul>
 
 (image: eti-rev.png alt: ETI)
 
 <ul class="button-group">
-	<li><a href="#" data-dropdown="eti-rev" class="button dropdown">Download: EPS</a></li>
-	<li><a href="#" data-dropdown="eti-rev-pdf" class="button dropdown">Download: PDF</a></li>
-	<li><a href="#" data-dropdown="eti-rev-png" class="button dropdown">Download: PNG</a></li>
-</ul>
-
-<ul id="eti-rev" class="f-dropdown">
-	<li>(file: ETI_grayscale_reverse.eps text: Reverse)</li>
-</ul>
-
-<ul id="eti-rev-pdf" class="f-dropdown">
-	<li>(file: ETI_grayscale_reverse.pdf text: Reverse)</li>
-</ul>
-
-<ul id="eti-rev-png" class="f-dropdown">
-	<li>(file: ETI_grayscale_reverse.png text: Reverse)</li>
+	<li>(file: ETI_grayscale_reverse.eps class: button text: Download: EPS)</li>
+	<li>(file: ETI_grayscale_reverse.pdf class: button text: Download: PDF)</li>
+	<li>(file: ETI_grayscale_reverse.png class: button text: Download: PNG)</li>
 </ul>

@@ -11,7 +11,11 @@ Use this when the logo is displayed at normal to relatively large sizes.
 
 (image: dc-pos.png alt: SK&A DC class: logo)
 
-<a href="#" data-dropdown="dc-pos" class="button dropdown">Download: EPS</a>
+<ul class="button-group">
+	<li><a href="#" data-dropdown="dc-pos" class="button dropdown">Download: EPS</a></li>
+	<li><a href="#" data-dropdown="dc-pos-pdf" class="button dropdown">Download: PDF</a></li>
+	<li><a href="#" data-dropdown="dc-pos-png" class="button dropdown">Download: PNG</a></li>
+</ul>
 
 <ul id="dc-pos" class="f-dropdown">
 	<li>(file: SK&ADC_cmyk_positive.eps text: Print - CMYK)</li>
@@ -19,14 +23,42 @@ Use this when the logo is displayed at normal to relatively large sizes.
 	<li>(file: SK&ADC_grayscale_positive.eps text: Black & White)</li>
 </ul>
 
+<ul id="dc-pos-pdf" class="f-dropdown">
+	<li>(file: SK&ADC_cmyk_positive.pdf text: Print - CMYK)</li>
+	<li>(file: SK&ADC_rgb_positive.pdf text: Screen - RGB)</li>
+	<li>(file: SK&ADC_grayscale_positive.pdf text: Black & White)</li>
+</ul>
+
+<ul id="dc-pos-png" class="f-dropdown">
+	<li>(file: SK&ADC_cmyk_positive.png text: Print - CMYK)</li>
+	<li>(file: SK&ADC_rgb_positive.png text: Screen - RGB)</li>
+	<li>(file: SK&ADC_grayscale_positive.png text: Black & White)</li>
+</ul>
+
 (image: md-pos.png alt: SK&A MD class: logo)
 
-<a href="#" data-dropdown="md-pos" class="button dropdown">Download: EPS</a>
+<ul class="button-group">
+	<li><a href="#" data-dropdown="md-pos" class="button dropdown">Download: EPS</a></li>
+	<li><a href="#" data-dropdown="md-pos-pdf" class="button dropdown">Download: PDF</a></li>
+	<li><a href="#" data-dropdown="md-pos-png" class="button dropdown">Download: PNG</a></li>
+</ul>
 
 <ul id="md-pos" class="f-dropdown">
 	<li>(file: SK&AMD_cmyk_positive.eps text: Print - CMYK)</li>
 	<li>(file: SK&AMD_rgb_positive.eps text: Screen - RGB)</li>
 	<li>(file: SK&AMD_grayscale_positive.eps text: Black & White)</li>
+</ul>
+
+<ul id="md-pos-pdf" class="f-dropdown">
+	<li>(file: SK&AMD_cmyk_positive.pdf text: Print - CMYK)</li>
+	<li>(file: SK&AMD_rgb_positive.pdf text: Screen - RGB)</li>
+	<li>(file: SK&AMD_grayscale_positive.pdf text: Black & White)</li>
+</ul>
+
+<ul id="md-pos-png" class="f-dropdown">
+	<li>(file: SK&AMD_cmyk_positive.png text: Print - CMYK)</li>
+	<li>(file: SK&AMD_rgb_positive.png text: Screen - RGB)</li>
+	<li>(file: SK&AMD_grayscale_positive.png text: Black & White)</li>
 </ul>
 
 ***
@@ -36,7 +68,11 @@ Use this when the logo is displayed very small (such as a website footer).
 
 (image: dc-sm-pos.png alt: SK&A DC class: logo)
 
-<a href="#" data-dropdown="dc-sm-pos" class="button dropdown">Download: EPS</a>
+<ul class="button-group">
+	<li><a href="#" data-dropdown="dc-sm-pos" class="button dropdown">Download: EPS</a></li>
+	<li><a href="#" data-dropdown="dc-sm-pos-pdf" class="button dropdown">Download: PDF</a></li>
+	<li><a href="#" data-dropdown="dc-sm-pos-png" class="button dropdown">Download: PNG</a></li>
+</ul>
 
 <ul id="dc-sm-pos" class="f-dropdown">
 	<li>(file: SK&ADC_sm_cmyk_positive.eps text: Print - CMYK)</li>
@@ -44,14 +80,42 @@ Use this when the logo is displayed very small (such as a website footer).
 	<li>(file: SK&ADC_sm_grayscale_positive.eps text: Black & White)</li>
 </ul>
 
+<ul id="dc-sm-pos-pdf" class="f-dropdown">
+	<li>(file: SK&ADC_sm_cmyk_positive.pdf text: Print - CMYK)</li>
+	<li>(file: SK&ADC_sm_rgb_positive.pdf text: Screen - RGB)</li>
+	<li>(file: SK&ADC_sm_grayscale_positive.pdf text: Black & White)</li>
+</ul>
+
+<ul id="dc-sm-pos-png" class="f-dropdown">
+	<li>(file: SK&ADC_sm_cmyk_positive.png text: Print - CMYK)</li>
+	<li>(file: SK&ADC_sm_rgb_positive.png text: Screen - RGB)</li>
+	<li>(file: SK&ADC_sm_grayscale_positive.png text: Black & White)</li>
+</ul>
+
 (image: md-sm-pos.png alt: SK&A MD class: logo)
 
-<a href="#" data-dropdown="md-sm-pos" class="button dropdown">Download: EPS</a>
+<ul class="button-group">
+	<li><a href="#" data-dropdown="md-sm-pos" class="button dropdown">Download: EPS</a></li>
+	<li><a href="#" data-dropdown="md-sm-pos-pdf" class="button dropdown">Download: PDF</a></li>
+	<li><a href="#" data-dropdown="md-sm-pos-png" class="button dropdown">Download: PNG</a></li>
+</ul>
 
 <ul id="md-sm-pos" class="f-dropdown">
 	<li>(file: SK&AMD_sm_cmyk_positive.eps text: Print - CMYK)</li>
 	<li>(file: SK&AMD_sm_rgb_positive.eps text: Screen - RGB)</li>
 	<li>(file: SK&AMD_sm_grayscale_positive.eps text: Black & White)</li>
+</ul>
+
+<ul id="md-sm-pos-pdf" class="f-dropdown">
+	<li>(file: SK&AMD_sm_cmyk_positive.pdf text: Print - CMYK)</li>
+	<li>(file: SK&AMD_sm_rgb_positive.pdf text: Screen - RGB)</li>
+	<li>(file: SK&AMD_sm_grayscale_positive.pdf text: Black & White)</li>
+</ul>
+
+<ul id="md-sm-pos-png" class="f-dropdown">
+	<li>(file: SK&AMD_sm_cmyk_positive.png text: Print - CMYK)</li>
+	<li>(file: SK&AMD_sm_rgb_positive.png text: Screen - RGB)</li>
+	<li>(file: SK&AMD_sm_grayscale_positive.png text: Black & White)</li>
 </ul>
 
 ***
@@ -63,7 +127,11 @@ Use this when the logo is displayed at normal to relatively large sizes.
 
 (image: dc-rev.png alt: SK&A DC class: logo)
 
-<a href="#" data-dropdown="dc-rev" class="button dropdown">Download: EPS</a>
+<ul class="button-group">
+	<li><a href="#" data-dropdown="dc-rev" class="button dropdown">Download: EPS</a></li>
+	<li><a href="#" data-dropdown="dc-rev-pdf" class="button dropdown">Download: PDF</a></li>
+	<li><a href="#" data-dropdown="dc-rev-png" class="button dropdown">Download: PNG</a></li>
+</ul>
 
 <ul id="dc-rev" class="f-dropdown">
 	<li>(file: SK&ADC_cmyk_reverse.eps text: Print - CMYK)</li>
@@ -71,14 +139,42 @@ Use this when the logo is displayed at normal to relatively large sizes.
 	<li>(file: SK&ADC_grayscale_reverse.eps text: Black & White)</li>
 </ul>
 
+<ul id="dc-rev-pdf" class="f-dropdown">
+	<li>(file: SK&ADC_cmyk_reverse.pdf text: Print - CMYK)</li>
+	<li>(file: SK&ADC_rgb_reverse.pdf text: Screen - RGB)</li>
+	<li>(file: SK&ADC_grayscale_reverse.pdf text: Black & White)</li>
+</ul>
+
+<ul id="dc-rev-png" class="f-dropdown">
+	<li>(file: SK&ADC_cmyk_reverse.png text: Print - CMYK)</li>
+	<li>(file: SK&ADC_rgb_reverse.png text: Screen - RGB)</li>
+	<li>(file: SK&ADC_grayscale_reverse.png text: Black & White)</li>
+</ul>
+
 (image: md-rev.png alt: SK&A MD class: logo)
 
-<a href="#" data-dropdown="md-rev" class="button dropdown">Download: EPS</a>
+<ul class="button-group">
+	<li><a href="#" data-dropdown="md-rev" class="button dropdown">Download: EPS</a></li>
+	<li><a href="#" data-dropdown="md-rev-pdf" class="button dropdown">Download: PDF</a></li>
+	<li><a href="#" data-dropdown="md-rev-png" class="button dropdown">Download: PNG</a></li>
+</ul>
 
 <ul id="md-rev" class="f-dropdown">
 	<li>(file: SK&AMD_cmyk_reverse.eps text: Print - CMYK)</li>
 	<li>(file: SK&AMD_rgb_reverse.eps text: Screen - RGB)</li>
 	<li>(file: SK&AMD_grayscale_reverse.eps text: Black & White)</li>
+</ul>
+
+<ul id="md-rev-pdf" class="f-dropdown">
+	<li>(file: SK&AMD_cmyk_reverse.pdf text: Print - CMYK)</li>
+	<li>(file: SK&AMD_rgb_reverse.pdf text: Screen - RGB)</li>
+	<li>(file: SK&AMD_grayscale_reverse.pdf text: Black & White)</li>
+</ul>
+
+<ul id="md-rev-png" class="f-dropdown">
+	<li>(file: SK&AMD_cmyk_reverse.png text: Print - CMYK)</li>
+	<li>(file: SK&AMD_rgb_reverse.png text: Screen - RGB)</li>
+	<li>(file: SK&AMD_grayscale_reverse.png text: Black & White)</li>
 </ul>
 
 ***
@@ -88,7 +184,11 @@ Use this when the logo is displayed very small (such as a website footer).
 
 (image: dc-sm-rev.png alt: SK&A DC class: logo)
 
-<a href="#" data-dropdown="dc-sm-rev" class="button dropdown">Download: EPS</a>
+<ul class="button-group">
+	<li><a href="#" data-dropdown="dc-sm-rev" class="button dropdown">Download: EPS</a></li>
+	<li><a href="#" data-dropdown="dc-sm-rev-pdf" class="button dropdown">Download: PDF</a></li>
+	<li><a href="#" data-dropdown="dc-sm-rev-png" class="button dropdown">Download: PNG</a></li>
+</ul>
 
 <ul id="dc-sm-rev" class="f-dropdown">
 	<li>(file: SK&ADC_sm_cmyk_reverse.eps text: Print - CMYK)</li>
@@ -96,12 +196,40 @@ Use this when the logo is displayed very small (such as a website footer).
 	<li>(file: SK&ADC_sm_grayscale_reverse.eps text: Black & White)</li>
 </ul>
 
+<ul id="dc-sm-rev-pdf" class="f-dropdown">
+	<li>(file: SK&ADC_sm_cmyk_reverse.pdf text: Print - CMYK)</li>
+	<li>(file: SK&ADC_sm_rgb_reverse.pdf text: Screen - RGB)</li>
+	<li>(file: SK&ADC_sm_grayscale_reverse.pdf text: Black & White)</li>
+</ul>
+
+<ul id="dc-sm-rev-png" class="f-dropdown">
+	<li>(file: SK&ADC_sm_cmyk_reverse.png text: Print - CMYK)</li>
+	<li>(file: SK&ADC_sm_rgb_reverse.png text: Screen - RGB)</li>
+	<li>(file: SK&ADC_sm_grayscale_reverse.png text: Black & White)</li>
+</ul>
+
 (image: md-sm-rev.png alt: SK&A MD class: logo)
 
-<a href="#" data-dropdown="md-sm-rev" class="button dropdown">Download: EPS</a>
+<ul class="button-group">
+	<li><a href="#" data-dropdown="md-sm-rev" class="button dropdown">Download: EPS</a></li>
+	<li><a href="#" data-dropdown="md-sm-rev-pdf" class="button dropdown">Download: PDF</a></li>
+	<li><a href="#" data-dropdown="md-sm-rev-png" class="button dropdown">Download: PNG</a></li>
+</ul>
 
 <ul id="md-sm-rev" class="f-dropdown">
 	<li>(file: SK&AMD_sm_cmyk_reverse.eps text: Print - CMYK)</li>
 	<li>(file: SK&AMD_sm_rgb_reverse.eps text: Screen - RGB)</li>
 	<li>(file: SK&AMD_sm_grayscale_reverse.eps text: Black & White)</li>
+</ul>
+
+<ul id="md-sm-rev-pdf" class="f-dropdown">
+	<li>(file: SK&AMD_sm_cmyk_reverse.pdf text: Print - CMYK)</li>
+	<li>(file: SK&AMD_sm_rgb_reverse.pdf text: Screen - RGB)</li>
+	<li>(file: SK&AMD_sm_grayscale_reverse.pdf text: Black & White)</li>
+</ul>
+
+<ul id="md-sm-rev-png" class="f-dropdown">
+	<li>(file: SK&AMD_sm_cmyk_reverse.png text: Print - CMYK)</li>
+	<li>(file: SK&AMD_sm_rgb_reverse.png text: Screen - RGB)</li>
+	<li>(file: SK&AMD_sm_grayscale_reverse.png text: Black & White)</li>
 </ul>

@@ -8,7 +8,11 @@ The SK&A & ETI brands use accent graphics: layered triangles using variations of
 
 (image: sk&a-graphic.gif alt: SK&A accent graphics)
 
-(file: sk&a-graphic.eps text: Download: EPS class: button)
+<ul class="button-group">
+	<li>(file: sk&a-graphic.eps text: Download: EPS class: button)</li>
+	<li>(file: sk&a-graphic.pdf text: Download: PDF class: button)</li>
+	<li>(file: sk&a-graphic.png text: Download: PNG class: button)</li>
+</ul>
 
 ***
 
@@ -16,4 +20,8 @@ The SK&A & ETI brands use accent graphics: layered triangles using variations of
 
 (image: eti-graphic.gif alt: ETI accent graphics)
 
-(file: eti-graphic.eps text: Download: EPS class: button)
+<ul class="button-group">
+	<li>(file: eti-graphic.eps text: Download: EPS class: button)</li>
+	<li>(file: eti-graphic.pdf text: Download: PDF class: button)</li>
+	<li>(file: eti-graphic.png text: Download: PNG class: button)</li>
+</ul>
