@@ -1,5 +1,16 @@
 # Kirby .htaccess
 
+# Force certain filetypes to download instead of load inline (not Kirby)
+AddType application/octet-stream .csv
+AddType application/octet-stream .xls
+AddType application/octet-stream .doc
+# AddType application/octet-stream .avi
+# AddType application/octet-stream .mpg
+# AddType application/octet-stream .mov
+# AddType application/octet-stream .pdf
+AddType application/octet-stream .eps
+AddType application/octet-stream .ase
+
 # enable php for directory indexes. 
 # this should be enabled by default, but let's just make sure
 DirectoryIndex index.php index.html index.htm
